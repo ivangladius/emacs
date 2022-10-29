@@ -1,0 +1,68 @@
+
+;; ----- smex-history -----
+(
+ magit-remote-add
+ describe-key
+ list-faces-display
+ magit-init
+ mkdir
+ projectile-add-known-project
+ quickrun-shell
+)
+
+;; ----- smex-data -----
+(
+ (isearch-repeat-forward . 2)
+ (load-init . 25)
+ (package-install . 23)
+ (load-theme . 9)
+ (list-faces-display . 17)
+ (imenu . 3)
+ (company-mode . 3)
+ (idomenu . 2)
+ (forward-sexp . 1)
+ (back-to-indentation . 1)
+ (forward-list . 1)
+ (lsp-mode . 4)
+ (lsp-ui-mode . 3)
+ (flycheck-mode . 3)
+ (lsp-ui-imenu . 6)
+ (helm-find-files . 2)
+ (ucs-normalize-HFS-NFC-region . 1)
+ (treemacs . 12)
+ (lsp-ui-doc-mode . 2)
+ (lsp-ui-imenu-mode . 1)
+ (quickrun . 1)
+ (emojify-mode . 2)
+ (ido-mode . 2)
+ (clang-format . 2)
+ (clang-format-buffer . 1)
+ (clang-format-region . 2)
+ (lsp . 1)
+ (lsp-ui-peek-mode . 2)
+ (treemacs-refresh . 1)
+ (package-delete . 1)
+ (xah-open-in-external-app . 2)
+ (customize-themes . 9)
+ (server-force-delete . 2)
+ (server-start . 3)
+ (describe-key . 12)
+ (which-key-mode . 3)
+ (projectile-mode . 2)
+ (projectile-add-known-project . 3)
+ (shell-command . 1)
+ (package-refresh-contents . 2)
+ (magit . 10)
+ (magit-run . 1)
+ (magit-mode . 3)
+ (magit-stash-mode . 2)
+ (magit-status-mode . 1)
+ (mkdir . 2)
+ (magit-init . 2)
+ (magit-remote . 1)
+ (flush-lines . 5)
+ (global-font-lock-mode . 1)
+ (describe-function . 1)
+ (quickrun-shell . 39)
+ (magit-remote-add . 2)
+)
