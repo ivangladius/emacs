@@ -1,0 +1,104 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/max/GIT_TEST/" . "testv1/")
+ ("/home/max/FORCE/" . "simple/")
+ ("/home/max/JAVA/" . "TEST/")
+ ("/home/max/flasky/dotfiles/" . ".emacs.d7/")
+ ("/home/max/flasky/" . "dotfiles/")
+ ("/home/max/" . "GIT_TEST/")
+ ("/home/max/.emacs.d/" . "eshell/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/max/GIT_TEST/testv1/"
+ "/home/max/GIT_TEST/"
+ "/home/max/FORCE/"
+ "/home/max/FORCE/simple/"
+ "/::"
+ "/"
+ "/home/max/test2/"
+ "/home/max/test1/"
+ "/home/max/.emacs.d/"
+ "/home/max/SNAKE/"
+ "/home/max/.stumpwm.d/"
+ "/home/max/stumpwm/"
+ "/home/max/SNAKE3/"
+ "/home/max/flasky/dotfiles/.emacs.d7/"
+ "/home/max/"
+ "/home/max/JAVA/TEST/"
+ "/home/max/JAVA/Simple/"
+ "/home/max/SNAKE2/"
+ "/home/max/.emacs.d/eshell/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "README.md"
+ "text.text"
+ ".projectile"
+ "test.cpp"
+ "sol2.cpp"
+ "sol1.cpp"
+ "sol1.py"
+ "sudo"
+ ":su"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/max/GIT_TEST/testv1/" (25437 13292 63710 395000) "README.md" ".git/" "./" "../")
+
+ ("/home/max/" (25437 13020 120363 137000) "SNAKE3_SAFE1/" ".bashrc" "AndroidStudioProjects/" ".wget-hsts" ".android/" "test1-token" ".authinfo" ".ssh/" ".java/" "DEADJOE" ".local/" ".bash_profile" ".gitconfig" ".bash_logout" ".bash_history" ".tmux.conf" ".python_history" ".cache/" "Music/" "GIT_TEST/" "size.c" "Documents/" "Videos/" "flasky/" "hello.py" ".Xmodmap" "Downloads/" "stumpwm/" "FORCE/" "SNAKE3_COPY/" "JAVA/" "Tcp_chat/" "eclipse-workspace/" "stumpwm_safe/" "polybar-start.sh" "./" ".sbclrc" ".Xresources" "../" "Public/" "test" ".vim/" ".viminfo" ".eclipse/" ".lesshst" "quicklisp/" "test1/" ".rustup/" "startup.sh" "yay/" "test.joe" ".clang-format" "test2/" ".cargo/" "$HOME/" ".slime_paste" "dotfiles/" ".xinitrc" "SNAKE/" "SNAKE_COPY/" "TEST/" "class" "Pictures/" ".Xauthority" ".joe_state" ".gradle/" ".emacs~" ".pki/" "st.c" "dwm/" ".vimrc" "size" "quicklisp.lisp" "XTerm2022-10-20.10:06:12" "Desktop/" ".stumpwm.d/" "run" ".zoom/" "SNAKE2/" "SNAKE3/" ".emacs.d/" "Templates/" ".m2/" "dmenu2/" "Android/" ".config/" ".gtkrc-2.0")
+
+ ("/home/max/GIT_TEST/" (25437 13114 487034 679000) "./" "../" "testv1/" "text.text")
+
+ ("/home/max/.emacs.d/" (25437 13070 767032 399000) "global-keys.el" "eclipse.jdt.ls/" "settings.el" "init.el~" ".git/" "smex-items" "company-config.el" "tramp" ".cache/" "scripts.el" ".lsp-session-v1" "recentf" "c-config.el" "tramp-config.el" "projectile-bookmarks.eld" "eln-cache/" "java-config.el" "snippets/" "./" "transient/" "../" "projectile.cache" "workspace/" "elpa/" "projectile-config.el" "ido.last" "eshell/" "emojify-config.el" "auto-save-list/" "idomenu.el" "xah-fly-keys-config.el" "ivy-config.el" "emojis/" ".projectile" ".dap-breakpoints" "ido-config.el" "clang-format-config.el" "init.el" "workgroup-config.el")
+
+ ("/home/max/.emacs.d/eshell/" (25435 27888 711283 504000) "./" "history" "../" "lastdir" "alias")
+
+ ("/home/max/FORCE/" (25435 27958 444615 290000) "./" "../" ".projectile" "simple/")
+
+ ("/home/max/FORCE/simple/" (25435 27888 697950 172000) "sol1.cpp" "./" "test.cpp" "../" "sol2.cpp" "sol1.py" "sol1")
+
+ ("/home/max/dwm/" (25434 59548 711130 123000) "dwm.o" "util.c" "util.o" "util.h" "config.def.h" ".git/" "config.h" "drw.c" "config.mk" "LICENSE" "./" "../" "Makefile" "dwm.png" "drw.o" "README" "dwm.c" "drw.h" "dwm.1" "dwm" "transient.c")
+
+ ("/home/" (25419 2601 538023 41000) "max/" "./" "../")
+
+ ("/home/max/test2/" (25434 54794 237957 710000) ".git/" "./" "../" "test2/")
+
+ ("/home/max/test2/test2/" (25434 54795 354624 338000) "README.md" ".git/" "./" "../")
+
+ ("/home/max/test1/" (25434 54273 507975 234000) "README.md" ".git/" "./" "fuck.file" "../" "hello.txt")
+
+ ("/home/max/.stumpwm.d/" (25434 42211 929692 253000) "theme.lisp" "commands.lisp" "./" "init.lisp" "../" "mode-line.lisp" "keybinds.lisp" "stumpwm.log" ".projectile" "modules/" "stumpwm.log.1")
+
+ ("/home/max/SNAKE/" (25434 53219 4677 120000) "GRTAGS" "main.c" "testt" "GTAGS" "./" "testt.c" "../" "snake.c" "GPATH" "run" "snake.h")
+
+ ("/home/max/stumpwm/" (25432 28576 257294 716000) "stumpwm.lisp" "keysyms.lisp" "mode-line-formatters.lisp" "manual.lisp" ".gitignore" "HACKING" "stumpwm.info" "README.md" "menu-definitions.lisp" "stumpwm-tests.asd" ".git/" "make-image.lisp.in" "iresize.lisp" "group.lisp" "user.lisp" "ioloop.lisp" "events.lisp" "dynamic-mixins/" "interactive-keymap.lisp" "stumpwm" "package.lisp" "replace-class.lisp" "make-image.lisp" "bindings.lisp" ".travis.yml" "load-stumpwm.lisp" "Dockerfile" "color.lisp" "config.log" "selection.lisp" "./" "Makefile.in" "tests/" "../" "mode-line.lisp" "dynamic-window.lisp" "Makefile" "window-placement.lisp" "version.lisp" "sample-stumpwmrc.lisp" "head.lisp" "pathnames.lisp" ".github/" "test-wm.lisp" "input.lisp" "screen.lisp" "COPYING" "AUTHORS" ".dockerignore" "config.status" "primitives.lisp" ".gitattributes" "fdump.lisp" "font-rendering.lisp" "menu-declarations.lisp" "tile-group.lisp" "minor-modes.lisp" "configure.ac" "stumpwm.asd" "main.lisp" "stumpwm.texi" "NEWS" "dynamic-group.lisp" "message-window.lisp" "tile-window.lisp" "stumpwm.texi.in" "wse.lisp" "time.lisp" "help.lisp" "load-stumpwm.lisp.in" "configure" ".dir-locals.el" "window.lisp" "floating-group.lisp" "wrappers.lisp" "module.lisp" "kmap.lisp" "remap-keys.lisp" "autom4te.cache/" "keytrans.lisp" "command.lisp" "autogen.sh" "core.lisp" "timers.lisp" "debug.lisp")
+
+ ("/home/max/SNAKE3_COPY/" (25431 64070 666663 914000) "main.cpp" "./" "test.cpp" "../" "snake.hpp" "main" "run" "snake.cpp")
+
+ ("/home/max/SNAKE3/" (25431 64036 686665 51000) "main.cpp" "./" "test.cpp" "../" "snake.hpp" "index.html" "main" "server" "server.cpp" "run" "snake.cpp")
+
+ ("/dev/shm/" (25431 23195 699602 984000) "fdsaf" "ffaabb" "../" "./")
+
+ ("/home/max/JAVA/Simple/" (25431 1661 526819 348000) "./" "../" "new/" "Value.java" "Main.java")
+
+ ("/home/max/JAVA/TEST/" (25430 61552 457006 1000) "./" "../" "Value.java" "Main.java")
+
+ ("/home/max/JAVA/" (25430 58044 13789 425000) "Simple/" "hello.java" "./" "../" "Fruit/" "arr1.java" "Fruit.java" "TEST/" "Main.java")
+
+ ("/home/max/SNAKE2/" (25430 52701 143966 777000) "main.c" "./" "../" "snake.c" "main" "run" "snake.h")
+
+ ("/home/max/flasky/dotfiles/.emacs.d7/" (25430 47176 47483 839000) "global-keys.el" "gtags-config" "helm-gtags-config.el" "url/" "init.el~" "themes/" "var/" "company-config.el" "tramp" "helm-my-config.el" "recentf" "exwm-my-config.el" "c-programming-config.el" "emacs-looks.el" "no-littering-config.el" "tramp-config.el" "resize-window-to-left.el" "projectile-bookmarks.eld" "flycheck-config.el" "ranger-my-config.el" "./" "pulse-config.el" "transient/" "../" "gtags-config.el" "etc/" "projectile.cache" "#recentf#" "elpa/" "#ranger-my-config.el#" "projectile-config.el" "asm86-mode.elc" "eshell/" "emacs5.d/" "backup-config.el~" "auto-save-list/" "webmode-config.el" "my-c-abbrev.el" "helm-config.el" "format-all.el" "helm-swoop-config.el" "eshell-config.el" "xah-fly-keys-config.el" "workgroups-config.el" "ivy-config.el" "package-lock.json" "mydired.el" "semanticdb/" "ranger-my-config.el~" "web-mode.el" "backup-config.el" "exwm-my-config.el~" "init.el.before_ecb_2.50" "node_modules/" "valgrind-config.el" ".projectile" "zoom-window-config.el" "clang-format-config.el" "init.el.before_ecb_2.50__1" "init.el" "elisp-config.el" "rename-file-config.el")
+
+ ("/home/max/flasky/dotfiles/" (25430 47177 74150 471000) "ftrace.c" ".bashrc" "README.md" ".git/" ".emacs.d7/" ".Xmodmap" "./" ".Xresources" ".emacs2.d/" "../" ".emacs.d4/" "emacs5.d/" ".xsession" "gef/" "valgrind" "config" ".gitmodules" ".emacs.d3/" "dwm/" ".vimrc" "gas32" ".emacs.d6/" ".emacs.d/")
+
+ ("/home/max/flasky/" (25430 47168 97484 102000) "./" "../" "dotfiles/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
