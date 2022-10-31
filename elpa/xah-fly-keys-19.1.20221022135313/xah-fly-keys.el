@@ -3309,7 +3309,7 @@ minor modes loaded later may override bindings in this map.")
 
 
 (xah-fly--define-keys
- (define-prefix-command 'xah-fly-Rp2p1-key-map)
+ (define-prefix-command 'xah-fly-i-key-map)
  ;; dvorak c
  '(
    ;;

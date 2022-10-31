@@ -1,4 +1,6 @@
-((magit-branch-configure nil)
+((magit-bisect nil)
+ (magit-branch nil)
+ (magit-branch-configure nil)
  (magit-cherry-pick
   ("--ff"))
  (magit-commit nil)
@@ -11,4 +13,5 @@
  (magit-pull nil)
  (magit-push nil)
  (magit-remote
-  ("-f")))
+  ("-f"))
+ (magit-tag nil))

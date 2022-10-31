@@ -1,54 +1,3 @@
-rm *.~
-ls
-ls
-find . -name '*~' -exec rm {} \;
-ls
-clear
-ls
-ls
-ls
-f
-ll
-ls
-rm ivy-config
-sudo pacman -Ss iosevka
-sudo pacman -S community/ttc-iosevka
-ls
-cd ~/.emacs.d
-ls
-wget clone https://www.emacswiki.org/emacs/download/idomenu.el
-ls
-lsmod | grep kvm
-cp ~/SNAKE/run .
-ls
-cp run ~/SNAKE3/run
-ls
-ll
-ls
-l
-ls
-cd
-ls
-sudo pacman -S rofi
-alsamixer
-cd
-touch .stumpwmrc
-ls poly
-ls poly*
-chmod +x $HOME/polybar-start.sh 
-polybar-start.sh 
-bash polybar-start.sh 
-bash polybar-start.sh 
-sudo chmod +x /usr/bin/sc 
-sudo chmod +x /usr/bin/sc 
-sudo chmod +x /usr/bin/sc 
-sudo chmod +x /usr/bin/sc 
-sudo chmod +x /usr/bin/sc 
-sudo chmod +x /usr/bin/sc 
-ls /usr/bin/s*
-ls /usr/bin/sc\  
-sudo chmod +x /usr/bin/sc
-chmod a+x /usr/bin/sc
 sudo chmod a+x /usr/bin/sc
 sudo chmod a+x /usr/bin/ec 
 git clone https://github.com/ivangladius/test1.git
@@ -114,3 +63,66 @@ g++ -x c++  -o /home/max/FORCE/simple/qr_9yCVgx.out qr_9yCVgx.cpp && /home/max/F
 g++ -x c++  -o /home/max/FORCE/simple/qr_XEpklN.out qr_XEpklN.cpp && /home/max/FORCE/simple/qr_XEpklN.out 
 g++ -x c++  -o /home/max/FORCE/simple/qr_TYzBzr.out qr_TYzBzr.cpp && /home/max/FORCE/simple/qr_TYzBzr.out 
 g++ -x c++  -o /home/max/FORCE/simple/qr_kjotCK.out qr_kjotCK.cpp && /home/max/FORCE/simple/qr_kjotCK.out 
+ls
+clear
+ls
+ls
+ls
+cp econfig .emacs.d/eshell-config.el
+ls
+ls
+clear 1
+ls
+ls
+clear
+clear 1
+ls
+git clone https://github.com/flaskymasky/dotfiles
+cd flasky
+mkdir flasky
+cd flasky/
+git clone https://github.com/flaskymasky/dotfiles
+ls
+cd
+ls
+touch one two tree
+clear
+clear 1
+cp ~/Downloads/Competitors\ pipe\ producer.xlsx pipes.xlsx
+cp ~/Downloads/job.pdf job.pdf
+ls
+cpan PDF::Extract
+sudo make
+sudo cpan PDF::Extract
+perl extract.pl
+sudo cpan install PDF
+sudo cpan PDF
+sudo cpan PDF::FromHTML
+cpan PDF::FromHTML
+sudo cpan PDF::FromHTML
+sudo cpan HTML::Tidy
+sudo cpan XML::Clean
+sudo cpan PDF::FromHTML
+cpanm PDF::FromHTML
+cpan APP::cpanminus
+sudo cpan APP::cpanminus
+sudo cpan App::cpanminus
+cpanm PDF::FromHTML
+cpanm HTML::Tidy
+cpanm HTML::Tidy --force
+sudo cpanm HTML::Tidy
+cpanm HTML::Tidy
+cpanm HTML::Tidy --sudo
+sudo pacman -S python3-pip
+sudo pacman -S python-pip
+sudo pacman -S python-pip
+pip install PyPDF2
+sudo pacman -S virtualenv
+python3 read.py
+clear 1
+python3 read.py
+clear 1
+clear 1
+cp read.py readsafe.py
+cp read.py readsafe2.py
+cp read.py read_good_safe.py

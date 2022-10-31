@@ -1,22 +1,22 @@
 
 ;; ----- smex-history -----
 (
- magit-remote-add
- describe-key
+ load-init
+ customize-themes
  list-faces-display
- magit-init
- mkdir
+ helm-find-files
+ package-install
  projectile-add-known-project
- quickrun-shell
+ flycheck-mode
 )
 
 ;; ----- smex-data -----
 (
  (isearch-repeat-forward . 2)
- (load-init . 25)
- (package-install . 23)
+ (load-init . 33)
+ (package-install . 24)
  (load-theme . 9)
- (list-faces-display . 17)
+ (list-faces-display . 23)
  (imenu . 3)
  (company-mode . 3)
  (idomenu . 2)
@@ -25,9 +25,9 @@
  (forward-list . 1)
  (lsp-mode . 4)
  (lsp-ui-mode . 3)
- (flycheck-mode . 3)
+ (flycheck-mode . 4)
  (lsp-ui-imenu . 6)
- (helm-find-files . 2)
+ (helm-find-files . 7)
  (ucs-normalize-HFS-NFC-region . 1)
  (treemacs . 12)
  (lsp-ui-doc-mode . 2)
@@ -43,13 +43,13 @@
  (treemacs-refresh . 1)
  (package-delete . 1)
  (xah-open-in-external-app . 2)
- (customize-themes . 9)
+ (customize-themes . 12)
  (server-force-delete . 2)
  (server-start . 3)
  (describe-key . 12)
  (which-key-mode . 3)
  (projectile-mode . 2)
- (projectile-add-known-project . 3)
+ (projectile-add-known-project . 5)
  (shell-command . 1)
  (package-refresh-contents . 2)
  (magit . 10)

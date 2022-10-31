@@ -1,1 +1,1 @@
-("~/GIT_TEST/testv1/" "~/.emacs.d/" "~/FORCE/" "~/flasky/dotfiles/.emacs.d7/" "/:/home/max/test2/test2/" "~/test1/" "~/.stumpwm.d/" "~/stumpwm/")
+("~/csv_private/" "~/test5/" "~/flasky/test5/" "~/flasky/dotfiles/.emacs.d7/" "~/project_manager/")
