@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- customize-themes
- list-faces-display
  yas-reload-all
  yas-new-snippet
  yas-global-mode
  yas-activate-extra-mode
  yas-minor-mode
+ package-install
+ latex-to-pdf-fast
 )
 
 ;; ----- smex-data -----
@@ -16,7 +16,7 @@
  (load-init . 64)
  (package-install . 33)
  (load-theme . 9)
- (list-faces-display . 26)
+ (list-faces-display . 25)
  (imenu . 3)
  (company-mode . 3)
  (idomenu . 3)
@@ -43,7 +43,7 @@
  (treemacs-refresh . 1)
  (package-delete . 1)
  (xah-open-in-external-app . 2)
- (customize-themes . 15)
+ (customize-themes . 14)
  (server-force-delete . 2)
  (server-start . 3)
  (describe-key . 12)

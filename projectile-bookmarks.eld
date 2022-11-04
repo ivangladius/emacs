@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/flasky/dotfiles/.emacs.d7/" "~/schedule_learning/" "~/snake3/" "~/project_manager/" "~/csv_private/")
+("~/schedule_learning/" "~/.emacs.d/" "~/snake3/" "~/project_manager/" "~/csv_private/" "~/flasky/dotfiles/.emacs.d7/")

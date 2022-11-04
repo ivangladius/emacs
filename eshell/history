@@ -1,3 +1,19 @@
+g++ -x c++  -o /home/max/FORCE/simple/qr_qVnVwK.out qr_qVnVwK.cpp && /home/max/FORCE/simple/qr_qVnVwK.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_vJcvPD.out qr_vJcvPD.cpp && /home/max/FORCE/simple/qr_vJcvPD.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_XSOj1x.out qr_XSOj1x.cpp && /home/max/FORCE/simple/qr_XSOj1x.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_U0KuWg.out qr_U0KuWg.cpp && /home/max/FORCE/simple/qr_U0KuWg.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_UeVq3v.out qr_UeVq3v.cpp && /home/max/FORCE/simple/qr_UeVq3v.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_ad3gFh.out qr_ad3gFh.cpp && /home/max/FORCE/simple/qr_ad3gFh.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_ad3gFh.out qr_ad3gFh.cpp && /home/max/FORCE/simple/qr_ad3gFh.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_1xh83a.out qr_1xh83a.cpp && /home/max/FORCE/simple/qr_1xh83a.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_g6xiaY.out qr_g6xiaY.cpp && /home/max/FORCE/simple/qr_g6xiaY.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_whfZp1.out qr_whfZp1.cpp && /home/max/FORCE/simple/qr_whfZp1.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_9yCVgx.out qr_9yCVgx.cpp && /home/max/FORCE/simple/qr_9yCVgx.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_XEpklN.out qr_XEpklN.cpp && /home/max/FORCE/simple/qr_XEpklN.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_TYzBzr.out qr_TYzBzr.cpp && /home/max/FORCE/simple/qr_TYzBzr.out 
+g++ -x c++  -o /home/max/FORCE/simple/qr_kjotCK.out qr_kjotCK.cpp && /home/max/FORCE/simple/qr_kjotCK.out 
+ls
+clear
 ls
 ls
 ls
@@ -110,19 +126,3 @@ sudo pacman -S glab
 glab auth
 gh auth login
 git clone https://gitlab.com/gladius23/org-testing
-bash run
-bash run
-bash run
-bash run
-bash run
-ls
-cd ..
-git clone https://github.com/ararslan/termcolor-c.git
-cd termcolor-c/
-ls
-clear 1
-clear 1
-clear 1
-clear 1
-git submodule update --init
-gh status

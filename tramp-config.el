@@ -5,7 +5,7 @@
   (save-some-buffers)
   (kill-emacs))
 
-;;(setq tramp-default-method "ssh")
+(setq tramp-default-method "ssh")
 
 (require 'tramp)
 (defun sudired ()
