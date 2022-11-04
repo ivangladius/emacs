@@ -433,14 +433,6 @@
 	       (:authors
 		("Augusto Stoffel" . "arstoffel@gmail.com"))
 	       (:commit . "fd68a33eb43b3cbd44fed767f48e230382903592"))])
- (coffee-mode .
-	      [(0 4 1 1)
-	       nil "Major mode for CoffeeScript files" single
-	       ((:keywords "coffeescript" "major" "mode")
-		(:authors
-		 ("Chris Wanstrath" . "chris@ozmm.org"))
-		(:maintainer "Chris Wanstrath" . "chris@ozmm.org")
-		(:url . "http://github.com/defunkt/coffee-mode"))])
  (comint-mime .
 	      [(0 2)
 	       ((emacs
@@ -855,7 +847,7 @@
 	 (:url . "https://elpa.gnu.org/packages/djvu.html")
 	 (:commit . "071c8ab168588897475899c46eaa16e70141db8c"))])
  (doc-toc .
-	  [(1 0)
+	  [(1 1)
 	   ((emacs
 	     (26 1)))
 	   "Manage outlines/table of contents of pdf and djvu documents" tar
@@ -864,7 +856,7 @@
 	    (:maintainer "Daniel Laurens Nicolai" . "dalanicolai@gmail.com")
 	    (:authors
 	     ("Daniel Laurens Nicolai" . "dalanicolai@gmail.com"))
-	    (:commit . "b4bb748aa303517cef1e1ce4c08047664704dbd5"))])
+	    (:commit . "5f7bd03152d2f20d2b1e1b3475b399a0afb04898"))])
  (docbook .
 	  [(0 1)
 	   nil "Info-like viewer for DocBook" single
@@ -1863,6 +1855,14 @@
 	  (:authors
 	   ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	  (:commit . "d8f18f74591ffcac6466409ac7cd29f90838b2fe"))])
+ (lv .
+     [(0 15 0)
+      nil "Other echo area" tar
+      ((:maintainer "Oleh Krehel")
+       (:authors
+	("Oleh Krehel"))
+       (:url . "https://elpa.gnu.org/packages/lv.html")
+       (:commit . "54e9db2b023e03b6f6b46aeec48ea74fd51d4e11"))])
  (map .
       [(3 3 1)
        ((emacs
@@ -2558,7 +2558,7 @@
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	   (:commit . "e01a8f7e80c5c83dfcfb87b10e0213d4963e4d15"))])
  (pyim .
-       [(5 2 6)
+       [(5 2 7)
 	((emacs
 	  (25 1))
 	 (async
@@ -2572,7 +2572,7 @@
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
-	 (:commit . "5d40490623294c503315946ab34f38a759b2a82c"))])
+	 (:commit . "8c4f7d40c05dc06b3c96c2955e5d72ec268f2b61"))])
  (pyim-basedict .
 		[(0 5 4)
 		 nil "The default pinyin dict of pyim" tar

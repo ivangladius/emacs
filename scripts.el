@@ -12,3 +12,11 @@
     (when file
       (find-file file))))
 
+
+
+
+(defun latex-to-pdf-fast()
+  (interactive)
+  (buffer-file-name (current-buffer)))
+
+(latex-to-pdf-fast)

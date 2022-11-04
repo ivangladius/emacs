@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:dbeg
+# key:dbeg
+# --
+
+\begin{document}
+
+$1
+
+\end{document}

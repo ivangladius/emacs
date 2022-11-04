@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: h3 
+# key: h3
+# --
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+

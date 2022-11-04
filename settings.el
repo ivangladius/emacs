@@ -3,6 +3,9 @@
 
 (shell-command "xmodmap ~/.Xmodmap")
 
+(setq inhibit-splash-screen t)
+(transient-mark-mode 1)
+
 (setq make-backup-files nil)
 (setq auto-save-default nil)
 

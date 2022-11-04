@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:hhandle
+# key: hhandle
+# --
+
+#define handle() \
+	do {perror(str);exit(EXIT_FAILURE)} while(0)

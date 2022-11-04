@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:dbegin 
+# key: dbegin
+# --
+
+\begin{document}
+
+$1
+
+\end{document}

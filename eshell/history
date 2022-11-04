@@ -1,54 +1,3 @@
-sudo chmod a+x /usr/bin/sc
-sudo chmod a+x /usr/bin/ec 
-git clone https://github.com/ivangladius/test1.git
-ls
-cd test1/
-ls
-git remote add test1-repo https://github.com/ivangladius/test1.git
-git remote -v
-touch hello.txt
-cd
-rm .git
-rm -rf .git
-ls
-cd test1
-ls
-cat README.md
-ls
-cat README.md
-ls
-cat README.md
-ls
-ls
-ls
-ls
-ls
-cd
-cd SNAKE
-sudo pacman -S global
-gtags
-ls
-make sol1
-./sol1
-g++ -o sol1 sol1.cpp -std=c++17
-clear 1
-g++ -o sol1 sol1.cpp -std=c++17
-g++ -o sol1 sol1.cpp -std=c++17 | less
-clear 1
-g++ -o sol1 sol1.cpp -std=c++17 | less
-clear 1
-g++ -o sol1 sol1.cpp -std=c++17
-g++ -x c++  -o /home/max/FORCE/simple/qr_DJQY5W.out qr_DJQY5W.cpp && /home/max/FORCE/simple/qr_DJQY5W.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_Vdzryb.out qr_Vdzryb.cpp && /home/max/FORCE/simple/qr_Vdzryb.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_HsvfQi.out qr_HsvfQi.cpp && /home/max/FORCE/simple/qr_HsvfQi.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_6Y5lPV.out qr_6Y5lPV.cpp && /home/max/FORCE/simple/qr_6Y5lPV.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_IpTyb5.out qr_IpTyb5.cpp && /home/max/FORCE/simple/qr_IpTyb5.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_FgV6j6.out qr_FgV6j6.cpp && /home/max/FORCE/simple/qr_FgV6j6.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_SIkIzF.out qr_SIkIzF.cpp && /home/max/FORCE/simple/qr_SIkIzF.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_5dMqNE.out qr_5dMqNE.cpp && /home/max/FORCE/simple/qr_5dMqNE.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_qNEVJd.out qr_qNEVJd.cpp && /home/max/FORCE/simple/qr_qNEVJd.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_rEYbFG.out qr_rEYbFG.cpp && /home/max/FORCE/simple/qr_rEYbFG.out 
-g++ -x c++  -o /home/max/FORCE/simple/qr_RYLQIC.out qr_RYLQIC.cpp && /home/max/FORCE/simple/qr_RYLQIC.out 
 g++ -x c++  -o /home/max/FORCE/simple/qr_qVnVwK.out qr_qVnVwK.cpp && /home/max/FORCE/simple/qr_qVnVwK.out 
 g++ -x c++  -o /home/max/FORCE/simple/qr_vJcvPD.out qr_vJcvPD.cpp && /home/max/FORCE/simple/qr_vJcvPD.out 
 g++ -x c++  -o /home/max/FORCE/simple/qr_XSOj1x.out qr_XSOj1x.cpp && /home/max/FORCE/simple/qr_XSOj1x.out 
@@ -126,3 +75,54 @@ clear 1
 cp read.py readsafe.py
 cp read.py readsafe2.py
 cp read.py read_good_safe.py
+gh repo list
+gh repo clone schedule_learning
+cd schedule_learning/
+ls
+clear
+ls
+ls
+ls
+clear 1
+setxkbmap -option ctlr:nocaps
+setxkbmap -option ctlr:nocaps
+bash run
+bash run
+sudo pacman -S texlive
+sudo pacman -S texlive-most
+ls
+ls
+clear
+ls
+ls
+clear 1
+ls
+clear 1
+ls
+ll
+ls -all
+clear 1
+ls
+clear
+ls
+bash run
+ls
+clear
+ls -all
+top
+cd
+ls
+cd .emacs.d/
+ls
+cd evil
+ls
+git clone https://github.com/emacs-evil/evil-magit.git
+ls
+cd evil-magit/
+ls
+git clone https://github.com/ivangladius/org.git
+git clone https://gitlab.com/gladius23/org-testing.git
+sudo pacman -S glab
+glab auth
+gh auth login
+git clone https://gitlab.com/gladius23/org-testing
