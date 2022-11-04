@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/max/flasky/dotfiles/.emacs.d7/" . "etc/")
+ ("/etc/" . "modprobe.d/")
  ("/home/max/.emacs.d/snippets/" . "c-mode/")
  ("/home/max/.config/" . "i3/")
  ("/home/" . "max/")
@@ -10,27 +12,31 @@
  ("/home/max/JAVA/" . "TEST/")
  ("/home/max/flasky/dotfiles/" . ".emacs.d7/")
  ("/home/max/flasky/" . "dotfiles/")
- ("/home/max/" . "TEX/")
+ ("/home/max/" . ".emacs.d/")
  ("/home/max/.emacs.d/" . "snippets/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/sudo:/etc/modprobe.d/"
+ "/home/max/.emacs.d/"
+ "/home/max/flasky/dotfiles/.emacs.d7/"
+ "/su:/modeprobe.d/"
+ "/sudo:"
+ "/etc/modprobe.d/"
  "/home/max/"
+ "/home/max/schedule_learning/"
  "/home/max/TEX/"
  "/home/max/.emacs.d/snippets/c-mode/"
  "/home/max/.emacs.d/snippets/latex/"
  "/home/max/.emacs.d/snippets/"
  "/home/max/snake3/"
- "/home/max/.emacs.d/"
  "/home/max/ORG/"
  "/home/max/org-testing/"
  "/home/max/org/"
  "/home/max/.config/i3/"
  "/home/max/.emacs.d/evil/"
- "/home/max/schedule_learning/"
  "/home/max/project_manager/"
- "/home/max/flasky/dotfiles/.emacs.d7/"
  "/home/max/.emacs.d/eshell/"
  "/home/max/GIT_TEST/testv1/"
  "/home/max/GIT_TEST/"
@@ -51,51 +57,62 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "nobeep.conf"
+ "tramp-config.el"
+ "test.c"
+ "main.cpp"
  "test2.c"
  "test1.tex"
  "hhandle"
  "dbegin"
  "main"
- "c-snippets"
- "test.c"
- "test.cpp"
- "init.el"
- "yassnippet-config.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/max/" (25444 15566 438209 844000) "XXXX/" "SNAKE3_SAFE1/" ".bashrc" "AndroidStudioProjects/" ".wget-hsts" "FINAL/" ".android/" "test1-token" ".authinfo" ".ssh/" "schedule_learning/" "x2/" ".java/" "DEADJOE" "GOOD/" ".local/" "x1/" "test.c" ".bash_profile" "SS/" ".emacs.d_safe1/" ".gitconfig" ".bash_logout" ".bash_history" ".tmux.conf" ".python_history" ".cache/" "Music/" "LOL3/" "GIT_TEST/" "size.c" "Documents/" "Videos/" "flasky/" "hello.py" ".Xmodmap" "Downloads/" "stumpwm/" "csv_private/" "FORCE/" "SNAKE3_COPYY/" "SNAKE3_COPY/" "JAVA/" "Tcp_chat/" "eclipse-workspace/" "stumpwm_safe/" "polybar-start.sh" "./" ".sbclrc" ".#test2.c" ".Xresources" "NEWZ/" "LOL2/" "NEWY/" "TEX/" "../" "Public/" "test" ".vim/" ".viminfo" "NEW1/" ".eclipse/" "FINAL2/" "project_manager/" "FUCK/" ".lesshst" "MCT/" "quicklisp/" "test1/" ".rustup/" "NEWX/" "LOL1/" "startup.sh" "yay/" "test.joe" ".clang-format" "test2/" ".cargo/" "$HOME/" "snake3/" ".slime_paste" "dotfiles/" ".xinitrc" "SNAKE/" "SNAKE_COPY/" "TEST/" "class" "Pictures/" ".Xauthority" ".joe_state" ".gradle/" ".pki/" "emacs/" "st.c" "dwm/" ".vimrc" "size" "quicklisp.lisp" "x3/" "XTerm2022-10-20.10:06:12" "Desktop/" ".stumpwm.d/" "diff-so-fancy/" "run" ".zoom/" "New3/" "test2.c" "SNAKE2/" ".emacs.d/" ".projects" "Templates/" "emacs_yas/" ".m2/" "NEW@2/" "dmenu2/" "LOL/" "ORG/" "Android/" ".config/" ".gtkrc-2.0")
+ ("/home/max/.emacs.d/" (25445 15649 275152 569000) "url/" "company-config.el" "ido.last" "xah-fly-keys-config.el" "scripts.el" "helm-swoop-config.el" "smex-items" "workspace/" "tramp" "treemacs-config.el" "latex-config.el" "c-config.el" "emojify-config.el" "idomenu.el" "plugins/" "README.md" "./" "projectile-bookmarks.eld" "workgroup-config.el" "ido-config.el" "../" "ac-comphist.dat" "auto-save-list/" "eln-cache/" "ivy-config.el" "evil-config.el~" "eshell-config.el" "evil/" "eshell/" "snippets/" "helm-config.el" "tramp-config.el" "java-config.el" "global-keys.el" "helm-my-config.el" "transient/" "yassnippet-config.el" "init.el" "init.el~" "org-config.el" ".git/" "diary" "latex-abbrev-config.el" "#init.el#" "clang-format-config.el" "projectile-config.el" "recentf" "emojis/" "settings.el" ".cache/" "elpa/" "eclipse.jdt.ls/" "projectile.cache" "evil-config.el")
 
- ("/home/max/TEX/" (25444 15555 574876 570000) "auto/" "test1.tex" "./" "../" ".#test1.tex")
+ ("/home/max/flasky/dotfiles/.emacs.d7/" (25445 15623 521958 753000) "url/" "company-config.el" "zoom-window-config.el" "xah-fly-keys-config.el" "my-c-abbrev.el" "webmode-config.el" "helm-swoop-config.el" "tramp" "ranger-my-config.el" "init.el.before_ecb_2.50" "#ranger-my-config.el#" "helm-gtags-config.el" "etc/" "ranger-my-config.el~" "mydired.el" "./" "flycheck-config.el" "projectile-bookmarks.eld" "init.el.before_ecb_2.50__1" "backup-config.el~" "package-lock.json" "format-all.el" "pulse-config.el" "../" "auto-save-list/" "web-mode.el" "ivy-config.el" "rename-file-config.el" "eshell-config.el" "eshell/" "backup-config.el" "helm-config.el" "gtags-config" "tramp-config.el" "global-keys.el" "helm-my-config.el" "#recentf#" "exwm-my-config.el" "transient/" "emacs5.d/" "themes/" "init.el" "init.el~" "resize-window-to-left.el" "node_modules/" "valgrind-config.el" "clang-format-config.el" ".projectile" "c-programming-config.el" "projectile-config.el" "elisp-config.el" "var/" "emacs-looks.el" "recentf" "semanticdb/" "gtags-config.el" "workgroups-config.el" "elpa/" "exwm-my-config.el~" "no-littering-config.el" "projectile.cache" "asm86-mode.elc")
 
- ("/home/max/.emacs.d/" (25444 15219 821545 166000) "global-keys.el" "ac-comphist.dat" "url/" "eclipse.jdt.ls/" "plugins/" "settings.el" "init.el~" "README.md" "diary" ".git/" "#init.el#" "smex-items" "company-config.el" "tramp" ".cache/" "scripts.el" "helm-my-config.el" "recentf" "c-config.el" "tramp-config.el" "evil/" "projectile-bookmarks.eld" "eln-cache/" "latex-config.el" "java-config.el" "snippets/" "./" "transient/" "../" "projectile.cache" "workspace/" "elpa/" "projectile-config.el" "latex-abbrev-config.el" "ido.last" "eshell/" "org-config.el" "yassnippet-config.el" "emojify-config.el" "auto-save-list/" "evil-config.el~" "treemacs-config.el" "helm-config.el" "idomenu.el" "helm-swoop-config.el" "eshell-config.el" "xah-fly-keys-config.el" "ivy-config.el" "emojis/" "ido-config.el" "clang-format-config.el" "init.el" "evil-config.el" "workgroup-config.el")
+ ("/home/max/flasky/" (25438 5527 468965 103000) "./" "some.txt" "../" "dotfiles/" "test5/")
 
- ("/home/max/.emacs.d/snippets/" (25444 15286 474878 116000) "c-mode/" "latex-mode/" "./" "c-snippets" "../" "latex/")
+ ("/home/max/flasky/dotfiles/" (25438 5269 77031 599000) "gas32" "valgrind" ".emacs.d/" ".bashrc" ".emacs2.d/" ".emacs.d3/" ".vimrc" "README.md" "./" ".emacs.d4/" ".emacs.d7/" "gef/" "ftrace.c" "../" ".xsession" "snake3/" ".Xresources" "emacs5.d/" ".git/" ".gitmodules" ".emacs.d6/" "config" "dwm/" ".Xmodmap")
+
+ ("/home/max/flasky/dotfiles/.emacs.d7/etc/" (25438 1057 589847 183000) "./" "../" "eshell/")
+
+ ("/etc/modprobe.d/" (25278 1333 0 0) "./" "../")
+
+ ("/etc/" (25445 4298 989975 675000) "host.conf" "ethertypes" "shells" "openmpi/" "i3blocks.conf" "healthd.conf" "sensors3.conf" "mdadm.conf" "modprobe.d/" "makepkg.conf" "xattr.conf" "UPower/" "libaudit.conf" "gshadow-" "passwd" "ndctl.conf.d/" "nginx/" "mailcap" "gemrc" "nscd.conf" "os-release" "X11/" "shadow" "sudoers" "libblockdev/" "request-key.d/" "profile" "libnl/" "ld.so.conf" "securetty" "udisks2/" "sudoers.d/" "pkcs11/" "keyutils/" "audit/" "avahi/" "i3status.conf" "e2scrub.conf" "ca-certificates/" "ld.so.conf.d/" "./" "udev/" "fuse.conf" "hosts" "ssl/" "rc_maps.cfg" "systemd/" "locale.conf" "netconfig" "polkit-1/" "kernel/" "nsswitch.conf" "../" "libpaper.d/" "conf.d/" "fstab" "iptables/" "xdg/" "dhcpcd.conf" "libreoffice/" "ssh/" "iproute2/" "bash.bashrc" "rc_keymaps/" "request-key.conf" "arch-release" "shadow-" "profile.d/" "papersize" "modules-load.d/" "grub.d/" "gai.conf" "subgid" "ts.conf" "locale.gen" "mime.types" "skel/" "tpm2-tss/" "fonts/" "mtab" "rpc" "localtime" "openpmix/" "pulse/" "mkinitcpio.conf" "hostname" "tmpfiles.d/" "binfmt.d/" "pam.d/" "inputrc" "i3/" "depmod.d/" ".pwd.lock" "alsa/" "login.defs" "vdpau_wrapper.cfg" "pacman.d/" "bash.bash_logout" "krb5.conf" "gshadow" "pinentry/" "daxctl.conf.d/" "protocols" "resolv.conf" "mkinitcpio.d/" "gtk-3.0/" "subuid" "sysctl.d/" "group-" "lvm/" "dconf/" "crypttab" "initcpio/" "man_db.conf" "group" "issue" "jack/" "openldap/" "services" "libinput/" "machine-id" "passwd-" "trusted-key.key" ".updated" "ndctl/" "sudo.conf" "pacman.conf" "security/" "bindresvport.blacklist" "ld.so.cache" "texmf/" "mke2fs.conf" "environment" "default/" "libva.conf" "vimrc" "adjtime" "sensors.d/" "gtk-2.0/" "sudo_logsrvd.conf")
+
+ ("/home/max/.emacs.d/eshell/" (25445 12016 64835 358000) "./" "../" "lastdir" "alias" "history")
+
+ ("/home/max/project_manager/" (25438 5232 380563 734000) "handler.sh" "README.md" "./" "project.pl" "../" ".git/")
+
+ ("/home/max/.emacs.d/evil/" (25445 12016 211501 230000) "./" "../" "file-functions.el" "evil-magit/" "evil-config.el")
+
+ ("/home/max/.config/i3/" (25443 61747 100686 652000) "./" "../" "config")
+
+ ("/home/max/ORG/" (25444 2910 234394 331000) "file1.org" "file2.html" "ltximg/" "file2.org" "./" "file2.tex" "../" "file2.pdf")
+
+ ("/home/max/snake3/" (25443 52880 772053 8000) "main" "./" "../" "test.cpp" ".git/" "run" "snake.hpp" "snake.cpp" "main.cpp")
+
+ ("/home/max/.emacs.d/snippets/" (25445 12016 211501 230000) "./" "../" "c-mode/" "c-snippets" "latex/" "latex-mode/")
+
+ ("/home/max/.emacs.d/snippets/latex/" (25445 12016 211501 230000) "./" "../" "dbegin")
+
+ ("/home/max/.emacs.d/snippets/c-mode/" (25445 12016 211501 230000) "main" "h3" "./" "../" "hhandle")
+
+ ("/home/max/TEX/" (25444 5798 595413 404000) "one.log" "./" "../" "one.tex" "one.aux" "auto/" "one.pdf")
+
+ ("/home/max/" (25445 15237 767381 898000) ".ssh/" "UNI/" "test.c" ".emacs.d/" ".bashrc" ".local/" "ORG/" ".lesshst" "termcolor-c/" "st/" ".vimrc" "yay-bin/" "xah-fly-keys/" "PYTHON3/" "fzf-tab/" "org/" "./" ".viminfo" "perl5/" ".projects" "scripts/" "../" "diff-so-fancy/" ".vim/" "csv_private/" ".bash_history" "project_managerfuck/" "startup.sh" "Downloads/" "TEX/" ".pki/" "SOGOOD/" "dotfiles/" "emacs/" "snake3/" "project_manager/" "schedule_learning/" "emacs_latest1/" ".Xresources" ".cpanm/" "emacs_2/" ".tmux.conf" "flasky/" "mnt/" "GUCCI/" "project_managerLOLXD/" "econfig" ".gitconfig" "project_managerCOOL/" ".config/" "fzf-tab-completion/" ".Xauthority" "emacs_lp/" "org-testing/" "auto" ".bash_logout" ".cpan/" ".#test5" ".cache/" "test5/" ".bash_profile" ".Xmodmap" "JOB/")
+
+ ("/home/max/schedule_learning/" (25445 14213 712929 677000) "edf.hpp" "sched.hpp" "sched.cpp" "workspace" "README.md" "./" "../" ".git/" "run" "edf.cpp" "main.cpp")
+
+ ("/home/max/termcolor-c/" (25445 15238 260712 558000) "README.md" "./" "include/" "test/" "../" "screenshot.png" ".git/" ".gitignore" "LICENSE" "package.json")
 
  ("/home/max/.emacs.d/snippets/latex-mode/" (25444 15286 484878 114000) "begin-document" "./" "../")
 
- ("/home/max/.emacs.d/snippets/latex/" (25444 15069 444879 357000) "dbegin" "./" "../")
-
- ("/home/max/.emacs.d/snippets/c-mode/" (25444 14631 564881 879000) "hhandle" "./" "../" "h3" "main")
-
  ("/home/max/GIT_TEST/" (25437 19430 530697 687000) "CLONE/" "testv2/" "./" "../" "testv1/" "text.text")
-
- ("/home/max/.emacs.d/eshell/" (25444 13713 941553 827000) "./" "history" "../" "lastdir" "alias")
-
- ("/home/max/flasky/dotfiles/.emacs.d7/" (25430 47176 47483 839000) "global-keys.el" "gtags-config" "helm-gtags-config.el" "url/" "init.el~" "themes/" "var/" "company-config.el" "tramp" "helm-my-config.el" "recentf" "exwm-my-config.el" "c-programming-config.el" "emacs-looks.el" "no-littering-config.el" "tramp-config.el" "resize-window-to-left.el" "projectile-bookmarks.eld" "flycheck-config.el" "ranger-my-config.el" "./" "pulse-config.el" "transient/" "../" "gtags-config.el" "etc/" "projectile.cache" "#recentf#" "elpa/" "#ranger-my-config.el#" "projectile-config.el" "asm86-mode.elc" "eshell/" "emacs5.d/" "backup-config.el~" "auto-save-list/" "webmode-config.el" "my-c-abbrev.el" "helm-config.el" "format-all.el" "helm-swoop-config.el" "eshell-config.el" "xah-fly-keys-config.el" "workgroups-config.el" "ivy-config.el" "package-lock.json" "mydired.el" "semanticdb/" "ranger-my-config.el~" "web-mode.el" "backup-config.el" "exwm-my-config.el~" "init.el.before_ecb_2.50" "node_modules/" "valgrind-config.el" ".projectile" "zoom-window-config.el" "clang-format-config.el" "init.el.before_ecb_2.50__1" "init.el" "elisp-config.el" "rename-file-config.el")
-
- ("/home/max/project_manager/" (25439 54382 220477 200000) "README.md" ".git/" "ONE/" "./" "../" "project_manager/" "functions.pl" "project.sh")
-
- ("/home/max/schedule_learning/" (25442 41076 973275 117000) "main.cpp" "README.md" ".git/" "sched.cpp" "./" "edf.cpp" "../" "edf.hpp" "run" "sched.hpp")
-
- ("/home/max/.emacs.d/evil/" (25444 13713 944887 161000) "evil-magit/" "./" "file-functions.el" "../" "evil-config.el")
-
- ("/home/max/.config/i3/" (25441 39312 796653 78000) "./" "../" "config")
-
- ("/home/max/ORG/" (25442 51116 223322 684000) "./" "../" "TEST/")
-
- ("/home/max/snake3/" (25441 18002 217225 5000) "main.cpp" ".git/" "./" "test.cpp" "../" "snake.hpp" "main" "run" "snake.cpp")
 
  ("/home/max/org/" (25443 64114 497861 362000) "ltximg/" "./" "../" "README.org" ".git/")
 
@@ -108,10 +125,6 @@
  ("/home/" (25408 26385 633792 150000) "./" "../" "max/")
 
  ("/home/max/$HOME/" (25419 9225 588701 923000) "./" "../")
-
- ("/home/max/flasky/dotfiles/" (25438 1058 993172 914000) "gas32" "valgrind" ".emacs.d/" ".bashrc" ".emacs2.d/" ".emacs.d3/" ".vimrc" "README.md" "./" ".emacs.d4/" ".emacs.d7/" "gef/" "ftrace.c" "../" ".xsession" ".Xresources" "emacs5.d/" ".git/" ".gitmodules" ".emacs.d6/" "config" "dwm/" ".Xmodmap")
-
- ("/home/max/flasky/" (25438 1051 429880 555000) "./" "../" "dotfiles/")
 
  ("/home/max/Downloads/" (25437 30751 687629 631000) "blue_space.jpg" "Report2341c650-bc85-46ff-9a11-ef14c0b026ff.pdf" "Report2341c650-bc85-46ff-9a11-ef14c0b026ff (1).pdf" "./" "blue_forest.jpg" "../" "file-sample_500kB.doc" "blue_space2.jpg")
 
