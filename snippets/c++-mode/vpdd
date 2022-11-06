@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: vpdd
+# key: vpdd
+# --
+std::vector<std::pair<double, double>> $1;
+$0

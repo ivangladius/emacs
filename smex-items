@@ -3,20 +3,20 @@
 (
  yas-reload-all
  yas-new-snippet
- yas-global-mode
- yas-activate-extra-mode
- yas-minor-mode
+ quickrun-shell
+ woman
+ slime
  package-install
- latex-to-pdf-fast
+ lsp-ui-imenu
 )
 
 ;; ----- smex-data -----
 (
  (isearch-repeat-forward . 2)
  (load-init . 64)
- (package-install . 33)
+ (package-install . 35)
  (load-theme . 9)
- (list-faces-display . 25)
+ (list-faces-display . 27)
  (imenu . 3)
  (company-mode . 3)
  (idomenu . 3)
@@ -26,10 +26,10 @@
  (lsp-mode . 4)
  (lsp-ui-mode . 3)
  (flycheck-mode . 5)
- (lsp-ui-imenu . 6)
- (helm-find-files . 7)
+ (lsp-ui-imenu . 10)
+ (helm-find-files . 8)
  (ucs-normalize-HFS-NFC-region . 1)
- (treemacs . 12)
+ (treemacs . 14)
  (lsp-ui-doc-mode . 2)
  (lsp-ui-imenu-mode . 1)
  (quickrun . 1)
@@ -40,14 +40,14 @@
  (clang-format-region . 2)
  (lsp . 1)
  (lsp-ui-peek-mode . 2)
- (treemacs-refresh . 1)
+ (treemacs-refresh . 2)
  (package-delete . 1)
  (xah-open-in-external-app . 2)
- (customize-themes . 14)
+ (customize-themes . 15)
  (server-force-delete . 2)
  (server-start . 3)
  (describe-key . 12)
- (which-key-mode . 5)
+ (which-key-mode . 6)
  (projectile-mode . 2)
  (projectile-add-known-project . 5)
  (shell-command . 1)
@@ -63,7 +63,7 @@
  (flush-lines . 5)
  (global-font-lock-mode . 3)
  (describe-function . 1)
- (quickrun-shell . 39)
+ (quickrun-shell . 47)
  (magit-remote-add . 2)
  (ido-find-file . 1)
  (ido-dired . 2)
@@ -93,9 +93,17 @@
  (list-abbrevs . 1)
  (latex-to-pdf-fast . 2)
  (TeX-PDF-mode . 2)
- (yas-new-snippet . 8)
+ (yas-new-snippet . 38)
  (yas-minor-mode . 2)
- (yas-reload-all . 16)
+ (yas-reload-all . 27)
  (yas-global-mode . 5)
  (yas-activate-extra-mode . 1)
+ (run-single-java-file . 9)
+ (treemacs-move-project-up . 1)
+ (which-key-C-h-dispatch . 1)
+ (treemacs-root-down . 1)
+ (treemacs-resort . 1)
+ (dired-sidebar-toggle-sidebar . 2)
+ (slime . 2)
+ (woman . 1)
 )

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dc
+# key: dc
+# --
+\documentclass{$1}
+$0
+

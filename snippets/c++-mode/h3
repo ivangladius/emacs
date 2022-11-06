@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: h3 
+# key: h3
+# --
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+

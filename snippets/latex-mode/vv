@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: vv
+# key: vv
+# --
+\vspace*{0.5cm}
+$0

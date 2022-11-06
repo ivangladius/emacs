@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: m23
+# key: m23
+# --
+
+\begin{bmatrix}
+ $1 & $2 \\\
+ $3 & $4 \\\
+ $5 & $6
+\end{bmatrix}
+$0

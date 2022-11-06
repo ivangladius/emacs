@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ut
+# key: ut
+# --
+\underline{$0}

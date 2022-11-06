@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: dci
+# key: dci
+# --
+\documentclass[$1]{$2}
+$0

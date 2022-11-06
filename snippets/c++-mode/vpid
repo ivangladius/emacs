@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: vpid
+# key: vpid
+# --
+std::vector<std::pair<int, double>> $1;
+$0

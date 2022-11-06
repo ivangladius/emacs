@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ini
+# key: ini
+# --
+std::initializer_list<$1>$0

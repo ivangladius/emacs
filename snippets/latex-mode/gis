@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: gis
+# key: gis
+# --
+
+\includegraphics[scale=$1]{$2}
+$0

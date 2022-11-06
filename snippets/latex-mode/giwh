@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: giwh
+# key: giwh
+# --
+
+\includegraphics[width=$1, height=$2]{$3}
+$0

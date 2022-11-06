@@ -12,6 +12,23 @@
     (when file
       (find-file file))))
 
+(defun run-single-java-file ()
+  (interactive)
+  (let*
+	  ((bname (buffer-file-name (current-buffer)))
+	   (bname-no-ex (file-name-sans-extension bname)))
+	(let
+		((c1 (concat "javac " bname))
+		 (c2 (concat "java " bname-no-ex))
+		 (del-class (concat "rm " (concat bname-no-ex ".class"))))
+	  ;; (message bname)
+	  ;; (message bname-no-ex)
+	  ;; (message del-class)
+	  (shell-command c1)
+	  (shell-command c2)
+	  (shell-command del-class)
+	  )))
+
 
 
 

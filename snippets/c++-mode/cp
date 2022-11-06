@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: cp
+# key: cp
+# --
+std::printf("$1", $2);
+$0

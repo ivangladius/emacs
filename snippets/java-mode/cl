@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: cl
+# key: cl
+# --
+
+public class $1 {
+
+       $0
+
+       public $1() {
+       	      
+       }
+}

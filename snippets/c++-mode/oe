@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: oe
+# key: oe
+# --
+
+std::cout << $1 << std::endl;
+$0
