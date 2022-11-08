@@ -3,11 +3,11 @@
 (
  yas-reload-all
  yas-new-snippet
+ list-faces-display
  quickrun-shell
  woman
  slime
  package-install
- lsp-ui-imenu
 )
 
 ;; ----- smex-data -----
@@ -16,7 +16,7 @@
  (load-init . 64)
  (package-install . 35)
  (load-theme . 9)
- (list-faces-display . 27)
+ (list-faces-display . 28)
  (imenu . 3)
  (company-mode . 3)
  (idomenu . 3)
@@ -93,9 +93,9 @@
  (list-abbrevs . 1)
  (latex-to-pdf-fast . 2)
  (TeX-PDF-mode . 2)
- (yas-new-snippet . 38)
+ (yas-new-snippet . 43)
  (yas-minor-mode . 2)
- (yas-reload-all . 27)
+ (yas-reload-all . 28)
  (yas-global-mode . 5)
  (yas-activate-extra-mode . 1)
  (run-single-java-file . 9)

@@ -1,2 +1,2 @@
-alias nil  $*
 alias [[ $- != *i* ]]  $*
+alias nil $*
