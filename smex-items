@@ -1,22 +1,22 @@
 
 ;; ----- smex-history -----
 (
- yas-reload-all
- yas-new-snippet
- list-faces-display
- quickrun-shell
- woman
- slime
- package-install
+ evil-org-mode
+ org-bullets-mode
+ org-latex-preview
+ save-buffer
+ org-indent-region
+ org-indent-item
+ org-indent-indent-buffer
 )
 
 ;; ----- smex-data -----
 (
  (isearch-repeat-forward . 2)
  (load-init . 64)
- (package-install . 35)
+ (package-install . 36)
  (load-theme . 9)
- (list-faces-display . 28)
+ (list-faces-display . 29)
  (imenu . 3)
  (company-mode . 3)
  (idomenu . 3)
@@ -47,7 +47,7 @@
  (server-force-delete . 2)
  (server-start . 3)
  (describe-key . 12)
- (which-key-mode . 6)
+ (which-key-mode . 7)
  (projectile-mode . 2)
  (projectile-add-known-project . 5)
  (shell-command . 1)
@@ -79,9 +79,9 @@
  (apropos-documentation . 2)
  (apropos-function . 2)
  (evil-org-< . 2)
- (evil-org-mode . 3)
+ (evil-org-mode . 8)
  (org-agenda . 3)
- (org-latex-preview . 1)
+ (org-latex-preview . 2)
  (evil-undo . 1)
  (undo-redo . 1)
  (org-superstar-mode . 2)
@@ -93,9 +93,9 @@
  (list-abbrevs . 1)
  (latex-to-pdf-fast . 2)
  (TeX-PDF-mode . 2)
- (yas-new-snippet . 43)
+ (yas-new-snippet . 47)
  (yas-minor-mode . 2)
- (yas-reload-all . 28)
+ (yas-reload-all . 30)
  (yas-global-mode . 5)
  (yas-activate-extra-mode . 1)
  (run-single-java-file . 9)
@@ -106,4 +106,11 @@
  (dired-sidebar-toggle-sidebar . 2)
  (slime . 2)
  (woman . 1)
+ (visual-line-mode . 1)
+ (org-indent-mode . 2)
+ (org-indent-indent-buffer . 2)
+ (org-indent-item . 1)
+ (org-indent-region . 1)
+ (save-buffer . 1)
+ (org-bullets-mode . 1)
 )

@@ -1,3 +1,20 @@
+clear 1
+python3 read.py
+clear 1
+clear 1
+cp read.py readsafe.py
+cp read.py readsafe2.py
+cp read.py read_good_safe.py
+gh repo list
+gh repo clone schedule_learning
+cd schedule_learning/
+ls
+clear
+ls
+ls
+ls
+clear 1
+setxkbmap -option ctlr:nocaps
 setxkbmap -option ctlr:nocaps
 bash run
 bash run
@@ -91,38 +108,21 @@ ban
 make ban
 ./ban
 ls
-setxkbmap -option caps:escape
-setxkbmap -option caps:noescape
+sudo pacman -S terminus-font
+cd .emacs.d
+cd ~/.emacs.d
 ls
-source .bashrc
-g++ -x c++  -o /home/max/FORCE/qr_0F4H8R.out qr_0F4H8R.cpp && /home/max/FORCE/qr_0F4H8R.out 
-g++ -x c++  -o /home/max/FORCE/qr_F7ywjH.out qr_F7ywjH.cpp && /home/max/FORCE/qr_F7ywjH.out 
-g++ -x c++  -o /home/max/FORCE/qr_qdJw8X.out qr_qdJw8X.cpp && /home/max/FORCE/qr_qdJw8X.out 
-g++ -x c++  -o /home/max/FORCE/qr_8spS9x.out qr_8spS9x.cpp && /home/max/FORCE/qr_8spS9x.out 
-g++ -x c++  -o /home/max/FORCE/qr_ZFW8YV.out qr_ZFW8YV.cpp && /home/max/FORCE/qr_ZFW8YV.out 
-g++ -x c++  -o /home/max/FORCE/qr_iHxNUr.out qr_iHxNUr.cpp && /home/max/FORCE/qr_iHxNUr.out 
-g++ -x c++  -o /home/max/FORCE/qr_iX3L89.out qr_iX3L89.cpp && /home/max/FORCE/qr_iX3L89.out 
-g++ -x c++  -o /home/max/FORCE/qr_ecixsp.out qr_ecixsp.cpp && /home/max/FORCE/qr_ecixsp.out 
-g++ -x c++  -o /home/max/FORCE/qr_wD5ERh.out qr_wD5ERh.cpp && /home/max/FORCE/qr_wD5ERh.out 
-g++ -x c++  -o /home/max/FORCE/qr_buwsf4.out qr_buwsf4.cpp && /home/max/FORCE/qr_buwsf4.out 
-g++ -x c++  -o /home/max/FORCE/qr_VVFWtu.out qr_VVFWtu.cpp && /home/max/FORCE/qr_VVFWtu.out 
-g++ -x c++  -o /home/max/FORCE/qr_g0t8dZ.out qr_g0t8dZ.cpp && /home/max/FORCE/qr_g0t8dZ.out 
-g++ -x c++  -o /home/max/FORCE/qr_yzlSUZ.out qr_yzlSUZ.cpp && /home/max/FORCE/qr_yzlSUZ.out 
-g++ -x c++  -o /home/max/FORCE/qr_w6KxMJ.out qr_w6KxMJ.cpp && /home/max/FORCE/qr_w6KxMJ.out 
-g++ -x c++  -o /home/max/FORCE/qr_dXrh6B.out qr_dXrh6B.cpp && /home/max/FORCE/qr_dXrh6B.out 
-g++ -x c++  -o /home/max/FORCE/qr_hJDYpN.out qr_hJDYpN.cpp && /home/max/FORCE/qr_hJDYpN.out 
-g++ -x c++  -o /home/max/FORCE/qr_vEUUGB.out qr_vEUUGB.cpp && /home/max/FORCE/qr_vEUUGB.out 
-g++ -x c++  -o /home/max/FORCE/qr_nSsDgj.out qr_nSsDgj.cpp && /home/max/FORCE/qr_nSsDgj.out 
-g++ -x c++  -o /home/max/FORCE/qr_hpK7L6.out qr_hpK7L6.cpp && /home/max/FORCE/qr_hpK7L6.out 
-g++ -x c++  -o /home/max/FORCE/qr_iaZqv6.out qr_iaZqv6.cpp && /home/max/FORCE/qr_iaZqv6.out 
-g++ -x c++  -o /home/max/FORCE/qr_YQAJ9i.out qr_YQAJ9i.cpp && /home/max/FORCE/qr_YQAJ9i.out 
-g++ -x c++  -o /home/max/FORCE/qr_hEqtE7.out qr_hEqtE7.cpp && /home/max/FORCE/qr_hEqtE7.out 
-g++ -x c++  -o /home/max/FORCE/qr_oU3wki.out qr_oU3wki.cpp && /home/max/FORCE/qr_oU3wki.out 
-gcc -x c  -o /home/max/qr_08cL6d.out qr_08cL6d.c && /home/max/qr_08cL6d.out 
-gcc -x c  -o /home/max/qr_CDcoyi.out qr_CDcoyi.c && /home/max/qr_CDcoyi.out 
-gcc -x c  -o /home/max/qr_NhZrve.out qr_NhZrve.c && /home/max/qr_NhZrve.out 
-gcc -x c  -o /home/max/qr_cbwhCl.out qr_cbwhCl.c && /home/max/qr_cbwhCl.out 
-gcc -x c  -o /home/max/qr_R0FhSa.out qr_R0FhSa.c && /home/max/qr_R0FhSa.out 
-gcc -x c  -o /home/max/qr_TghQfc.out qr_TghQfc.c && /home/max/qr_TghQfc.out 
-gcc -x c  -o /home/max/qr_amif70.out qr_amif70.c && /home/max/qr_amif70.out 
-gh auth login
+cd snippets/
+ls
+cp latex-mode/* org-mode/
+cd .emacs.d
+ls
+cd ~/.emacs.d
+ls
+cd snippets/
+ls
+cp org-mode/* latex-mode
+cp org-mode/* latex-mode
+yay -S inkscape-figures
+sudo pacman -S inkscape-figures
+yay -S python-inkscape-figures

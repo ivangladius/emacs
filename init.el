@@ -9,6 +9,8 @@
 
 
 
+
+
 ;;(global-font-lock-mode -1)
 
 (add-hook 'python-mode-hook 'jedi:setup)
@@ -31,7 +33,6 @@
 
 (load "~/.emacs.d/org-config")
 
-(load "~/.emacs.d/evil/evil-config")
 
 (load "~/.emacs.d/scripts")
 
@@ -77,9 +78,10 @@
 ;; IMPORT AT THE END TO UNBIND KEYS FROM OTHER PACKAGES WHICH I DID NOT SET OR LIKE
 (load "~/.emacs.d/global-keys")
 
+(load "~/.emacs.d/evil/evil-config")
 
-;;(shell-command "setxkbmap -option caps:escape")
-;;(shell-command "setxkbmap -option caps:escape")
+
+(shell-command "setxkbmap -option caps:escape")
 
 
 
@@ -105,7 +107,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :extend nil :stipple nil :background "dark blue" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight bold :height 165 :width normal :foundry "Xos4" :family "Terminus"))))
+ '(default ((t (:inherit nil :extend nil :stipple nil :background "dark blue" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight bold :height 125 :width normal :foundry "PfEd" :family "DejaVu Sans Mono"))))
  '(dired-directory ((t (:foreground "red" :weight bold))))
  '(font-lock-comment-face ((t (:foreground "snow4"))))
  '(font-lock-constant-face ((t nil)))

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: gp
+# key: gp
+# --
+\graphicspath{{$1}}
+$0

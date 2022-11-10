@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: gi
+# key: gi
+# --
+\includegraphics{$1}
+$0

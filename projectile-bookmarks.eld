@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/schedule_learning/")
+("~/.emacs.d/" "~/.emacs.d/evil/evil-magit/" "~/dotfiles/Math/" "~/dotfiles/")

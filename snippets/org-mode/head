@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: head
+# key: head
+# --
+
+\documentclass[$1]{$2}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage[document]{ragged2e}
+\graphicspath{{$3}}
+
+\title{$4}
+\author{$5}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+$0
+
+\end{document}

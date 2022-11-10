@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: wfig
+# key: wfig
+# --
+
+\begin{wrapfigure}{r}{$1\textwidth}
+	\centering
+	\includegraphics[width=$2\textwidth]{$3}
+\end{wrapfigure}
+
+$0

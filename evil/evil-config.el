@@ -45,6 +45,15 @@
 			(define-key evil-motion-state-local-map (kbd "<SPC>") space-map)))
 
 
+(evil-define-key 'normal 'org-mode-map (kbd "R") #'org-latex-preview)
+;; ORG MODE
+(global-set-key (kbd "C-c o") (lambda ()
+				(interactive)
+				(save-buffer)
+				(org-latex-export-to-pdf)))
+
+			       
+
 ;; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 ;; FILES PREFIX
 (define-prefix-command 'space-i-map)
@@ -78,7 +87,7 @@
 
 ;; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-;; COMMANDS PREFIX
+ ;; COMMANDS PREFIX
 (define-prefix-command 'space-c-map)
 (define-key space-map (kbd "c") space-c-map)
 ;; COMMANDS BINDINGS
@@ -146,3 +155,8 @@
 
 
 ;; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+;; MINOR MODES
+
+;; ORG MODE

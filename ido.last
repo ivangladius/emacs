@@ -4,7 +4,7 @@
 (
  ("/sudo::/etc/" . "modprobe.d/")
  ("/sudo::/" . "etc/")
- ("/home/max/.emacs.d/snippets/" . "latex-mode/")
+ ("/home/max/.emacs.d/snippets/" . "org-mode/")
  ("/home/max/.config/" . "i3/")
  ("/home/" . "max/")
  ("/home/max/GIT_TEST/" . "testv1/")
@@ -12,15 +12,17 @@
  ("/home/max/JAVA/" . "TEST/")
  ("/home/max/flasky/dotfiles/" . ".emacs.d7/")
  ("/home/max/flasky/" . "dotfiles/")
- ("/home/max/" . ".emacs.d/")
+ ("/home/max/" . "ORG/")
  ("/home/max/.emacs.d/" . "snippets/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/max/Downloads/"
- "/home/max/.emacs.d/"
  "/home/max/"
+ "/home/max/ORG/"
+ "/home/max/.emacs.d/snippets/org-mode/"
+ "/home/max/.emacs.d/"
+ "/home/max/.emacs.d/evil/"
  "/home/max/TEX/"
  "/home/max/TEST/"
  "/home/max/.emacs.d/snippets/c++-mode/"
@@ -32,11 +34,9 @@
  "/home/max/.emacs.d/snippets/latex/"
  "/home/max/.emacs.d/snippets/"
  "/home/max/snake3/"
- "/home/max/ORG/"
  "/home/max/org-testing/"
  "/home/max/org/"
  "/home/max/.config/i3/"
- "/home/max/.emacs.d/evil/"
  "/home/max/project_manager/"
  "/home/max/flasky/dotfiles/.emacs.d7/"
  "/home/max/.emacs.d/eshell/"
@@ -59,41 +59,45 @@
 
 ;; ----- ido-work-file-list -----
 (
- "db_ws_22.sql"
- "init.el"
- "startup.sh"
- "test.cpp"
- ".bashrc"
+ "test.org"
+ "test2.org"
+ "vv"
+ "global-keys.el"
+ "evil-config.el"
+ "m22"
  "two.tex"
  "value.hpp"
  "fuck.cpp"
  "ie"
- "hhandle"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/max/Downloads/" (25450 42685 559935 243000) "../" "db_ws_22.sql" "db_ws_22 (1).sql" "./" "Exercise_3_Database.pdf" "01a_Database_Lecture_Databases (1).pdf" "02_Database_Lecture_Databases (1).pdf" "Exercise_3_Database (1).pdf" "01b_Database_Lecture_Databases.pdf" "02_Database_Lecture_Databases.pdf" "01b_Database_Lecture_Databases (1).pdf" "01a_Database_Lecture_Databases.pdf" "Exercise_3_Database (2).pdf" "winter.jpg" "eduroam-linux-FUoAS.py" "20221024_Vorlesungsplanung.pdf")
+ ("/home/max/ORG/" (25452 1887 641845 569000) "auto/" "test2.org" "./" "test1.tex" "../" "test2.tex" "test2.pdf" "ltximg/")
 
- ("/home/max/" (25450 43943 606560 339000) ".mysql/" "test.cpp" "emacs/" "../" "FORCE/" ".gitconfig" ".vim/" "./" ".bash_profile" ".idlerc/" "ard.cpp" ".bash_history" ".cache/" ".Xauthority" "test.c" ".local/" ".config/" ".tmux.conf" ".emacs.d/" "yay/" ".bash_logout" ".Xresources" "todo" ".gnupg/" "schedule_learning/" ".pki/" "Downloads/" ".vimrc" "test1.log" ".viminfo" "test1.pdf" "test1.aux" "auto/" ".bashrc" "startup.sh" ".lesshst" "test1.tex" "sched2/" "xxx.tex" "ard.c" "dotfiles/")
+ ("/home/max/.emacs.d/" (25452 1474 7419 752000) "java-config.el" "emojify-config.el" "helm-config.el" "projectile.cache" ".gitmodules" "eln-cache/" "ac-comphist.dat" "xah-fly-keys-config.el" "flycheck_java-config.el" ".cache/" "yassnippet-config.el" "settings.el" "tramp" "evil-config.el" "README.md" "smex-items" "company-config.el" "workgroup-config.el" "helm-my-config.el" "latex-abbrev-config.el" "ivy-config.el" "org-config.el" "scripts.el" "helm-swoop-config.el" "evil/" "ido-config.el" "recentf" "latex-config.el" "./" "ido.last" "snippets/" ".git/" "eclipse.jdt.ls/" "diary" "elpa/" "#init.el#" "emojis/" "evil-config.el~" "eshell-config.el" "auto-save-list/" "projectile-bookmarks.eld" "global-keys.el" "idomenu.el" "clang-format-config.el" "../" "init.el~" "c-config.el" "treemacs-config.el" "projectile-config.el" "transient/" "workspace/" "init.el" "tramp-config.el" "eshell/")
 
- ("/home/max/.emacs.d/" (25448 41911 361540 257000) "idomenu.el" "ac-comphist.dat" "evil/" "init.el" "../" "ivy-config.el" "org-config.el" "./" "eshell-config.el" "ido-config.el" "ido.last" "snippets/" "emojify-config.el" ".cache/" "tramp-config.el" "global-keys.el" "helm-swoop-config.el" "latex-abbrev-config.el" "tramp" "#init.el#" "recentf" ".git/" "helm-config.el" "workspace/" "emojis/" "c-config.el" ".gitmodules" "projectile-config.el" "settings.el" "init.el~" "diary" "java-config.el" "helm-my-config.el" "flycheck_java-config.el" "evil-config.el" "company-config.el" "transient/" "eshell/" "eclipse.jdt.ls/" "workgroup-config.el" "smex-items" "clang-format-config.el" "elpa/" "xah-fly-keys-config.el" "README.md" "projectile-bookmarks.eld" "scripts.el" "treemacs-config.el" "latex-config.el" "yassnippet-config.el" "eln-cache/" "projectile.cache" "auto-save-list/" "evil-config.el~")
+ ("/home/max/.emacs.d/evil/" (25452 1474 750749 58000) "evil-config.el" "./" "evil-magit/" "../" "file-functions.el")
 
- ("/home/max/.emacs.d/eshell/" (25448 40932 239791 134000) "../" "./" "alias" "lastdir" "history")
+ ("/home/max/" (25452 525 879222 870000) "emacs/" ".viminfo" ".cache/" "yay/" ".bash_logout" ".config/" ".bashrc" ".gitconfig" ".local/" ".pki/" "Downloads/" "./" ".emacs.d/" ".Xauthority" "ORG/" ".vim/" ".gnupg/" ".Xresources" "startup.sh" ".ssh/" "../" ".vimrc" ".bash_profile" "dotfiles/" ".bash_history")
 
- ("/home/max/.emacs.d/evil/" (25448 40590 949773 203000) "file-functions.el" "../" "./" "evil-magit/" "evil-config.el")
+ ("/home/max/.emacs.d/snippets/org-mode/" (25451 58252 358197 343000) "wfig" "dci" "gp" "gis" "head" "ug" "ohead" "c" "giwh" "m23" "g" "test" "v" "m22" "gi" "bt" "./" "vv" "b" "ut" "u" "s1" "dc" "figc" "it" "../" "eq" "sec" "f" "ss1" "begin-document")
 
- ("/home/max/.config/i3/" (25448 40154 156417 48000) "../" "config" "./")
+ ("/home/max/dotfiles/" (25450 56506 711329 319000) "config" "README.md" ".bashrc" "./" ".git/" ".Xresources" ".zshrc" "Math/" "../" ".vimrc" "configure" ".tmux.conf")
 
- ("/home/max/.emacs.d/snippets/" (25448 40590 949773 203000) "../" "c-mode/" "./" "head/" "java-mode/" "latex/" "c++-mode/" "c-snippets" "latex-mode/")
+ ("/home/max/.emacs.d/snippets/latex-mode/" (25450 57756 607891 382000) "wfig" "dci" "gp" "gis" "head" "ug" "giwh" "m23" "g" "v" "m22" "gi" "bt" "./" "vv" "b" "ut" "u" "s1" "dc" "figc" "it" "../" "eq" "sec" "ss1" "begin-document")
 
- ("/home/max/.emacs.d/snippets/latex/" (25448 40590 949773 203000) "../" "./" "dbegin")
+ ("/home/max/.emacs.d/snippets/" (25451 44471 512854 587000) "org-mode/" "c-mode/" "head/" "c-snippets" "c++-mode/" "java-mode/" "latex/" "latex-mode/" "./" "../")
 
- ("/home/max/.emacs.d/snippets/c-mode/" (25448 40590 949773 203000) "../" "./" "hhandle" "main" "h3")
+ ("/home/max/.emacs.d/eshell/" (25450 55920 954502 635000) "lastdir" "./" "alias" "history" "../")
 
- ("/home/max/.emacs.d/snippets/c++-mode/" (25448 40590 949773 203000) "vpdi" "ini" "../" "vd" "ie" "./" "oe" "vv" "hhandle" "main" "vpii" "e" "va" "vpid" "v" "se" "vp" "os" "s" "vpdd" "h3" "o" "cp" "vs" "vi" "on" "idef")
+ ("/home/max/.config/i3/" (25450 56371 75397 455000) "config" "./" "../")
 
- ("/home/max/.emacs.d/snippets/latex-mode/" (25446 41534 253137 66000) "ug" "dc" "b" "./" "../" "sec" "begin-document" "u")
+ ("/home/max/.emacs.d/snippets/latex/" (25450 55896 694634 62000) "./" "dbegin" "../")
+
+ ("/home/max/.emacs.d/snippets/c-mode/" (25450 55896 694634 62000) "h3" "./" "main" "../" "hhandle")
+
+ ("/home/max/.emacs.d/snippets/c++-mode/" (25450 55896 694634 62000) "h3" "vp" "vpii" "e" "vs" "v" "vpdi" "ini" "vd" "./" "vi" "vv" "se" "vpid" "va" "vpdd" "main" "idef" "os" "../" "o" "ie" "s" "hhandle" "on" "cp" "oe")
 
  ("/home/max/TEX/" (25446 41320 570961 349000) "one.log" "./" ".#two.tex" "../" "one.tex" "one.aux" "two.tex" "auto/" "one.pdf")
 
@@ -123,8 +127,6 @@
 
  ("/home/max/project_manager/" (25438 5232 380563 734000) "handler.sh" "README.md" "./" "project.pl" "../" ".git/")
 
- ("/home/max/ORG/" (25444 2910 234394 331000) "file1.org" "file2.html" "ltximg/" "file2.org" "./" "file2.tex" "../" "file2.pdf")
-
  ("/home/max/snake3/" (25443 52880 772053 8000) "main" "./" "../" "test.cpp" ".git/" "run" "snake.hpp" "snake.cpp" "main.cpp")
 
  ("/home/max/GIT_TEST/" (25437 19430 530697 687000) "CLONE/" "testv2/" "./" "../" "testv1/" "text.text")
@@ -144,6 +146,8 @@
  ("/home/max/flasky/dotfiles/" (25438 1058 993172 914000) "gas32" "valgrind" ".emacs.d/" ".bashrc" ".emacs2.d/" ".emacs.d3/" ".vimrc" "README.md" "./" ".emacs.d4/" ".emacs.d7/" "gef/" "ftrace.c" "../" ".xsession" ".Xresources" "emacs5.d/" ".git/" ".gitmodules" ".emacs.d6/" "config" "dwm/" ".Xmodmap")
 
  ("/home/max/flasky/" (25438 1051 429880 555000) "./" "../" "dotfiles/")
+
+ ("/home/max/Downloads/" (25437 30751 687629 631000) "blue_space.jpg" "Report2341c650-bc85-46ff-9a11-ef14c0b026ff.pdf" "Report2341c650-bc85-46ff-9a11-ef14c0b026ff (1).pdf" "./" "blue_forest.jpg" "../" "file-sample_500kB.doc" "blue_space2.jpg")
 
  ("/home/max/GIT_TEST/testv1/" (25437 13292 63710 395000) "README.md" ".git/" "./" "../")
 

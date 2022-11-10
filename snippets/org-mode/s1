@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: s1
+# key: s1
+# --
+
+
+\subsection{$1}
+
+$0

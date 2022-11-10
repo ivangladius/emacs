@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ug  
+# key: ug
+# --
+\usepackage{graphicx}
+$0

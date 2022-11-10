@@ -15,7 +15,6 @@
 /home/max/schedule_learning
 ~
 /home/max/snake3
-/home/max/.emacs.d
 /home/max/.emacs.d/evil
 /home/max/.emacs.d/evil/evil-magit
 ~
@@ -27,7 +26,8 @@
 /home/max
 /home/max/CLISP
 /home/max/TEXNEW
-/home/max
-/home/max/FORCE
-/home/max
 ~
+/home/max/.emacs.d/snippets
+/home/max/ORG
+/home/max/.emacs.d
+/home/max/.emacs.d/snippets
