@@ -32,6 +32,9 @@
 (global-set-key (kbd "C-c j") 'comment-region)
 (global-set-key (kbd "C-c u") 'uncomment-region)
 
+(global-set-key (kbd "M-1") 'region-with-browser)
+
+
 
 ;;(global-set-key (kbd "M-a") 'helm-find-files)
 ;;(global-set-key (kbd "M-q") 'isearch-forward)

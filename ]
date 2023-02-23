@@ -98,5 +98,7 @@
 
 (define-key evil-normal-state-map (kbd ",") 'ace-window)
 
+(evil-define-key 'normal (kbd ",") 'ace-window)
+
 
 ;; $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

@@ -1,12 +1,3 @@
-~/.stumpwm.d
-/home/max/.stumpwm.d
-/home/max/test1
-/home/max/SNAKE
-/home/max/FORCE/simple
-/home/max/flasky
-~/.emacs.d/elpa
-/home/max/flasky/dotfiles/snake3
-/home/max/flasky/test5
 /home/max/JOB
 ~/JOB
 /home/max/JOB
@@ -31,3 +22,12 @@
 /home/max/ORG
 /home/max/.emacs.d
 /home/max/.emacs.d/snippets
+/home/max/.emacs.d/evil
+/home/max/C
+/home/max/.emacs.d
+/home/max/C
+/home/max/.emacs.d
+/home/max/FORCE
+/home/max/LATEX/test
+~/LATEX/test
+/home/max/LATEX/test2

@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <22/11/05 04:42:49 /home/max/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <23/02/08 19:20:06 /home/max/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; Run `M-x tramp-cleanup-all-connections' instead.
 
@@ -59,5 +59,9 @@
   ("df" "\\df --block-size=1 --output=size,used,avail")
   ("uid-integer" 0)
   ("ls--dired" "--dired"))
- ((tramp-file-name "sudo" "root" nil "pcarch" nil nil nil)
-  nil))
+ ((tramp-file-name "sudo" "root" nil "maximus" nil nil nil)
+  ("null-device" "/dev/null")
+  ("uid-string" "UNKNOWN")
+  ("gid-string" "UNKNOWN")
+  ("uid-integer" -1)
+  ("gid-integer" -1)))

@@ -36,4 +36,39 @@
   (interactive)
   (buffer-file-name (current-buffer)))
 
-(latex-to-pdf-fast)
+;;(latex-to-pdf-fast)
+
+
+
+
+
+(defun delete-function-at-point ()
+  "google marked word in brave browser"
+  (interactive)
+  (if (use-region-p)
+      (kill-region (region-beginning) (region-end))))
+
+
+(defun funfun(start end)
+  (interactive "r")
+  (start-process "emacs-brave"
+		 nil
+		 "https://www.google.com/search?q=lolxd"
+		 (concat (concat "\"" (buffer-substring-no-properties start end))
+			 "\"")))
+
+
+
+(defun region-with-browser (start end)
+  "Search for marked word with chromium."
+  (interactive "r")
+  (start-process
+   "emacs-google"
+   nil
+   "chromium"
+   "--new-window"
+   (concat "https://www.google.com/search?q="
+	   (buffer-substring-no-properties start end))))
+
+
+

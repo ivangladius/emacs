@@ -1,0 +1,2 @@
+
+(helm-gtags-mode)

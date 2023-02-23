@@ -1,7 +1,6 @@
 
-(load-theme 'modus-operandi t)
 
-(shell-command "xmodmap ~/.Xmodmap")
+;(shell-command "xmodmap ~/.Xmodmap")
 
 (setq inhibit-splash-screen t)
 (transient-mark-mode 1)
@@ -12,6 +11,9 @@
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
+
+(global-display-line-numbers-mode)
+(setq display-line-numbers 'relative)
 
 
 (setq mode-line-modes

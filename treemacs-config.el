@@ -1,3 +1,16 @@
+
+(require 'evil)
+
+(define-prefix-command 'treemacs-map)
+(define-key space-map (kbd "t") treemacs-map)
+
+
+(defun my-treemacs-set-width ()
+  (interactive)
+  (treemacs-select-window)
+  (treemacs-set-width))
+
+
 (use-package treemacs
   :ensure t
   :defer t
@@ -22,7 +35,7 @@
           treemacs-goto-tag-strategy               'refetch-index
           treemacs-header-scroll-indicators        '(nil . "^^^^^^")
           treemacs-hide-dot-git-directory          t
-          treemacs-indentation                     2
+          treemacs-indentation                     1
           treemacs-indentation-string              " "
           treemacs-is-never-other-window           nil
           treemacs-max-git-entries                 5000
@@ -49,12 +62,12 @@
           treemacs-select-when-already-in-treemacs 'move-back
           treemacs-space-between-root-nodes        t
           treemacs-tag-follow-cleanup              t
-          treemacs-tag-follow-delay                1.5
+          treemacs-tag-follow-delay                0.1
           treemacs-text-scale                      nil
           treemacs-user-mode-line-format           nil
           treemacs-user-header-line-format         nil
-          treemacs-wide-toggle-width               70
-          treemacs-width                           35
+          treemacs-wide-toggle-width               50
+          treemacs-width                           18
           treemacs-width-increment                 1
           treemacs-width-is-initially-locked       t
           treemacs-workspace-switch-cleanup        nil)
@@ -78,14 +91,15 @@
 
     (treemacs-hide-gitignored-files-mode nil))
   :bind
-  (:map global-map
-        ("M-0"       . treemacs-select-window)
-        ("C-x t 1"   . treemacs-delete-other-windows)
-        ("C-x t t"   . treemacs)
-        ("C-x t d"   . treemacs-select-directory)
-        ("C-x t B"   . treemacs-bookmark)
-        ("C-x t C-t" . treemacs-find-file)
-        ("C-x t M-t" . treemacs-find-tag)))
+  (:map treemacs-map
+        ("w"       . my-treemacs-set-width)
+        ("s"       . treemacs-select-window)
+        ("o"   . treemacs-delete-other-windows)
+        ("t"   . treemacs)
+        ("d"   . treemacs-select-directory)
+        ("b"   . treemacs-bookmark)
+        ("i"         . treemacs-find-file)
+        ("a" . treemacs-find-tag)))
 
 (use-package treemacs-evil
   :after (treemacs evil)

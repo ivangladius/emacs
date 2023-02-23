@@ -1,0 +1,33 @@
+# -*- mode: snippet -*-
+# name: rhead
+# key: rhead
+# --
+\documentclass{article}[12pt]
+\usepackage{graphicx}
+
+\usepackage{import}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{xcolor}
+
+\newcommand{\incfig}[2][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{./figures/}{#2.pdf_tex}
+}
+
+
+\pdfsuppresswarningpagegroup=1
+
+
+\title{bla bla}
+\author{maximus gladius}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+
+$0
+
+
+\end{document}

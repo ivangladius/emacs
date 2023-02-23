@@ -1,128 +1,128 @@
-clear 1
-python3 read.py
-clear 1
-clear 1
-cp read.py readsafe.py
-cp read.py readsafe2.py
-cp read.py read_good_safe.py
-gh repo list
-gh repo clone schedule_learning
-cd schedule_learning/
+ls
+ls
 ls
 clear
 ls
 ls
 ls
-clear 1
-setxkbmap -option ctlr:nocaps
-setxkbmap -option ctlr:nocaps
-bash run
-bash run
-sudo pacman -S texlive
-sudo pacman -S texlive-most
 ls
 ls
 clear
 ls
 ls
-clear 1
 ls
-clear 1
 ls
 ll
-ls -all
-clear 1
-ls
-clear
-ls
-bash run
-ls
-clear
-ls -all
+ll
+to
 top
-cd
 ls
-cd .emacs.d/
-ls
-cd evil
-ls
-git clone https://github.com/emacs-evil/evil-magit.git
-ls
-cd evil-magit/
-ls
-git clone https://github.com/ivangladius/org.git
-git clone https://gitlab.com/gladius23/org-testing.git
-sudo pacman -S glab
-glab auth
-gh auth login
-git clone https://gitlab.com/gladius23/org-testing
-rmmod pcspkr
-ls
-javac
-sudo pacman -S jre-openjdk
+ll
+ll
 ls
 clear
 ls
 ls
-javac Main.java
-javac
-sudo pacman -S jdf-openjdk
-sudo pacman -S jdk-openjdk
-jvac
-javac
-javac Main.java
-A
-javac Main.java
-java Main
-cd
-javac /home/max/JAVA/socket/Main.java
-java /home/max/JAVA/socket/Main
-cd JAVA
-ls
-cd socket/
-ls
-rm Main.class
-javac Main.java
-java Main
 ls
 ls
-javac Main.java
-javac Main.java
-java Main.java
 ls
-mv Main.java
-mv Main.java Server.java
+clear
 ls
-rm Main.class
 ls
-cp c-mode/* c++-mode/
+l
+sls
+l
+ll
 ls
-cd
-cd CLISP/ls
-cd CLISP/
 ls
-make ban
-ban 
-./ban
-./ban
-make ban
-./ban
+alias ll
+alias ll 'ls -l'
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+clear
+ll
+ll
+clear
 ls
-sudo pacman -S terminus-font
-cd .emacs.d
-cd ~/.emacs.d
+ll
 ls
-cd snippets/
+clear
 ls
-cp latex-mode/* org-mode/
-cd .emacs.d
 ls
-cd ~/.emacs.d
 ls
-cd snippets/
+clear
+sl
 ls
-cp org-mode/* latex-mode
-cp org-mode/* latex-mode
-yay -S inkscape-figures
-sudo pacman -S inkscape-figures
-yay -S python-inkscape-figures
+ll
+ls
+clear
+ls
+vim README.md
+ls
+clear
+ls
+ls
+g++ -x c++  -o /home/max/FORCE/qr_OPnTgQ.out qr_OPnTgQ.cpp && /home/max/FORCE/qr_OPnTgQ.out 
+g++ -x c++  -o /home/max/FORCE/qr_QnfoSr.out qr_QnfoSr.cpp && /home/max/FORCE/qr_QnfoSr.out 
+g++ -x c++  -o /home/max/FORCE/qr_PwTlKP.out qr_PwTlKP.cpp && /home/max/FORCE/qr_PwTlKP.out 
+g++ -x c++  -o /home/max/FORCE/qr_PwTlKP.out qr_PwTlKP.cpp && /home/max/FORCE/qr_PwTlKP.out 
+g++ -x c++  -o /home/max/FORCE/qr_PRJ1uy.out qr_PRJ1uy.cpp && /home/max/FORCE/qr_PRJ1uy.out 
+g++ -x c++  -o /home/max/FORCE/qr_PRJ1uy.out qr_PRJ1uy.cpp && /home/max/FORCE/qr_PRJ1uy.out 
+g++ -x c++  -o /home/max/FORCE/qr_UqellB.out qr_UqellB.cpp && /home/max/FORCE/qr_UqellB.out 
+g++ -x c++  -o /home/max/FORCE/qr_Zv8hbg.out qr_Zv8hbg.cpp && /home/max/FORCE/qr_Zv8hbg.out 
+g++ -x c++  -o /home/max/FORCE/qr_RoptE4.out qr_RoptE4.cpp && /home/max/FORCE/qr_RoptE4.out 
+g++ -x c++  -o /home/max/FORCE/qr_fYQGWi.out qr_fYQGWi.cpp && /home/max/FORCE/qr_fYQGWi.out 
+g++ -x c++  -o /home/max/FORCE/qr_ASwba3.out qr_ASwba3.cpp && /home/max/FORCE/qr_ASwba3.out 
+g++ -x c++  -o /home/max/FORCE/qr_Ov7s9F.out qr_Ov7s9F.cpp && /home/max/FORCE/qr_Ov7s9F.out 
+g++ -x c++  -o /home/max/FORCE/qr_vEDV7N.out qr_vEDV7N.cpp && /home/max/FORCE/qr_vEDV7N.out 
+g++ -x c++  -o /home/max/FORCE/qr_l3wbP1.out qr_l3wbP1.cpp && /home/max/FORCE/qr_l3wbP1.out 
+g++ -x c++  -o /home/max/FORCE/qr_gKYwQH.out qr_gKYwQH.cpp && /home/max/FORCE/qr_gKYwQH.out 
+g++ -x c++  -o /home/max/FORCE/qr_iPLuai.out qr_iPLuai.cpp && /home/max/FORCE/qr_iPLuai.out 
+g++ -x c++  -o /home/max/FORCE/qr_iPLuai.out qr_iPLuai.cpp && /home/max/FORCE/qr_iPLuai.out 
+g++ -x c++  -o /home/max/FORCE/qr_vdzxyP.out qr_vdzxyP.cpp && /home/max/FORCE/qr_vdzxyP.out 
+g++ -x c++  -o /home/max/FORCE/qr_vdzxyP.out qr_vdzxyP.cpp && /home/max/FORCE/qr_vdzxyP.out 
+g++ -x c++  -o /home/max/FORCE/qr_vdzxyP.out qr_vdzxyP.cpp && /home/max/FORCE/qr_vdzxyP.out 
+g++ -x c++  -o /home/max/FORCE/qr_sNXx0F.out qr_sNXx0F.cpp && /home/max/FORCE/qr_sNXx0F.out 
+g++ -x c++  -o /home/max/FORCE/qr_PD50fr.out qr_PD50fr.cpp && /home/max/FORCE/qr_PD50fr.out 
+g++ -x c++  -o /home/max/FORCE/qr_LvDsXF.out qr_LvDsXF.cpp && /home/max/FORCE/qr_LvDsXF.out 
+g++ -x c++  -o /home/max/FORCE/qr_Afmfel.out qr_Afmfel.cpp && /home/max/FORCE/qr_Afmfel.out 
+g++ -x c++  -o /home/max/FORCE/qr_hr7k2J.out qr_hr7k2J.cpp && /home/max/FORCE/qr_hr7k2J.out 
+g++ -x c++  -o /home/max/FORCE/qr_cIV43e.out qr_cIV43e.cpp && /home/max/FORCE/qr_cIV43e.out 
+g++ -x c++  -o /home/max/FORCE/qr_wvfP5D.out qr_wvfP5D.cpp && /home/max/FORCE/qr_wvfP5D.out 
+g++ -x c++  -o /home/max/FORCE/qr_oedsLR.out qr_oedsLR.cpp && /home/max/FORCE/qr_oedsLR.out 
+g++ -x c++  -o /home/max/FORCE/qr_oedsLR.out qr_oedsLR.cpp && /home/max/FORCE/qr_oedsLR.out 
+g++ -x c++  -o /home/max/FORCE/qr_4LQo7o.out qr_4LQo7o.cpp && /home/max/FORCE/qr_4LQo7o.out 
+g++ -x c++  -o /home/max/FORCE/qr_4LQo7o.out qr_4LQo7o.cpp && /home/max/FORCE/qr_4LQo7o.out 
+g++ -x c++  -o /home/max/FORCE/qr_odEY8y.out qr_odEY8y.cpp && /home/max/FORCE/qr_odEY8y.out 
+g++ -x c++  -o /home/max/FORCE/qr_NuIPc7.out qr_NuIPc7.cpp && /home/max/FORCE/qr_NuIPc7.out 
+g++ -x c++  -o /home/max/FORCE/qr_JsAe0j.out qr_JsAe0j.cpp && /home/max/FORCE/qr_JsAe0j.out 
+g++ -x c++  -o /home/max/FORCE/qr_JsAe0j.out qr_JsAe0j.cpp && /home/max/FORCE/qr_JsAe0j.out 
+g++ -x c++  -o /home/max/FORCE/qr_QiEUy9.out qr_QiEUy9.cpp && /home/max/FORCE/qr_QiEUy9.out 
+ls
+inkscape-figures create figures/test
+inkscape-edit figures/test.svg
+inkscape-figures edit figures/test.svg
+inkscape-figures edit figres
+inkscape-figures edit figures
+ls
+inkscape-figures edit figures
+inkscape-figures edit figures
+inkscape-figures watch
+inkscape-figures watch figures
+inkscape-figures watch --help
+inkscape-figures edit
+inkscape-figures edit figures
+inkscape-figures edit figures/
+inkscape-figures create --help
+inkscape-figures watch
+inkscape-figures watch
+ls

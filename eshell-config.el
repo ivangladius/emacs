@@ -13,10 +13,12 @@
 
 
 
-(bind-keys*
-    ("C-<backspace>" . (lambda () ; clear shell
-                     (interactive)
-                     (run-this-in-eshell "clear 1"))))
+
+(defun eshell/clear ()
+  "Hi, you will clear the eshell buffer."
+  (interactive)
+  (let ((inhibit-read-only t))
+	(erase-buffer)))
 
 
 

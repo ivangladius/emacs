@@ -1,22 +1,22 @@
 
 ;; ----- smex-history -----
 (
- evil-org-mode
- org-bullets-mode
- org-latex-preview
- save-buffer
- org-indent-region
- org-indent-item
- org-indent-indent-buffer
+ helm-find
+ load-init
+ helm-find-files
+ flycheck-mode
+ customize-themes
+ diff
+ projectile-mode
 )
 
 ;; ----- smex-data -----
 (
  (isearch-repeat-forward . 2)
- (load-init . 64)
+ (load-init . 67)
  (package-install . 36)
  (load-theme . 9)
- (list-faces-display . 29)
+ (list-faces-display . 33)
  (imenu . 3)
  (company-mode . 3)
  (idomenu . 3)
@@ -25,9 +25,9 @@
  (forward-list . 1)
  (lsp-mode . 4)
  (lsp-ui-mode . 3)
- (flycheck-mode . 5)
+ (flycheck-mode . 7)
  (lsp-ui-imenu . 10)
- (helm-find-files . 8)
+ (helm-find-files . 12)
  (ucs-normalize-HFS-NFC-region . 1)
  (treemacs . 14)
  (lsp-ui-doc-mode . 2)
@@ -43,12 +43,12 @@
  (treemacs-refresh . 2)
  (package-delete . 1)
  (xah-open-in-external-app . 2)
- (customize-themes . 15)
+ (customize-themes . 18)
  (server-force-delete . 2)
  (server-start . 3)
  (describe-key . 12)
- (which-key-mode . 7)
- (projectile-mode . 2)
+ (which-key-mode . 8)
+ (projectile-mode . 4)
  (projectile-add-known-project . 5)
  (shell-command . 1)
  (package-refresh-contents . 2)
@@ -113,4 +113,7 @@
  (org-indent-region . 1)
  (save-buffer . 1)
  (org-bullets-mode . 1)
+ (projectile-find-file-in-known-projects . 1)
+ (diff . 1)
+ (helm-find . 1)
 )
