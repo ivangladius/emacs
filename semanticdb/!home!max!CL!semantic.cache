@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-156782bbc97c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156782bbc97c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156782bc095e"
+      :major-mode lisp-mode
+      :tags nil
+      :file "testfile.lisp"
+      :pointmax 93
+      :fsize 92
+      :lastmodtime '(25599 47349 646680 585000)
+      :unmatched-syntax nil))
+  :file "!home!max!CL!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

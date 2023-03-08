@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file-156782b8d30e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156782b8d30e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156782b9d490"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("set-face-attribute" code nil nil [46 217])
+            ("setq" code nil nil [221 251])
+            ("transient-mark-mode" code nil nil [252 275])
+            ("setq" code nil nil [277 305])
+            ("setq" code nil nil [306 334])
+            ("menu-bar-mode" code nil nil [336 354])
+            ("scroll-bar-mode" code nil nil [355 375])
+            ("tool-bar-mode" code nil nil [376 394])
+            ("global-display-line-numbers-mode" code nil nil [396 430])
+            ("setq" code nil nil [431 468])
+            ("setq" code nil nil [471 699])
+            ("load-theme" code nil nil [701 738])
+            ("display-time-mode" code nil nil [740 761])
+            ("setq" code nil nil [764 789])
+            ("setq" code nil nil [790 808])
+            ("setq" code nil nil [810 848]))          
+      :file "settings.el"
+      :pointmax 850
+      :fsize 849
+      :lastmodtime '(25598 27604 536887 836000)
+      :unmatched-syntax nil))
+  :file "!home!max!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

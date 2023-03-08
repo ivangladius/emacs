@@ -1,35 +1,30 @@
-;; Set up package.el to work with MELPA
-
 ;; Download Evil
 (unless (package-installed-p 'evil)
   (package-install 'evil))
 
+(setq evil-want-integration t) ;; 
+(setq evil-want-keybinding nil)
+(setq evil-want-C-u-scroll t)
+(setq evil-want-C-d-scroll t)
+
+
+
+
 ;; Enable Evil
 (require 'evil)
 
+(when (require 'evil-collection nil t)
+  (evil-collection-init))
+
+
+
 
 (load "~/.emacs.d/evil/file-functions")
-(load "~/.emacs.d/evil/evil-magit/evil-magit.el")
 
-
-(global-set-key (kbd "C-u") nil)
-
-(evil-global-set-key 'normal (kbd "C-u")
-					 '(lambda ()
-						(interactive)
-						(evil-scroll-page-up 1)
-						(recenter)))
-
-(evil-global-set-key 'normal (kbd "C-d")
-					 '(lambda ()
-						(interactive)
-						(evil-scroll-page-down 1)
-						(recenter)))
 
 ;;(evil-define-key 'normal (kbd "C-u") 'evil-scroll-down)
 
 
-;;(require 'evil-magit)
 
 ;; change mode-line color by evil state
 
@@ -73,7 +68,16 @@
 	    (define-key tags-prog-map (kbd ".") 'helm-gtags-dwim)
 	    (define-key tags-prog-map (kbd "s") 'helm-gtags-find-symbol)
 	    (define-key tags-prog-map (kbd "r") 'helm-gtags-find-rtag)
-	 ;;   ))
+;;   ))
+
+
+(add-hook 'lisp-mode-hook
+	  (lambda ()
+	    (define-key evil-normal-state-local-map
+		  (kbd "8") 'evil-lispy/enter-insert-state-left)
+		(define-key evil-normal-state-local-map
+		  (kbd "9") 'evil-lispy/enter-insert-state-right)))
+
 
 
 
@@ -110,6 +114,10 @@
 (define-key space-map (kbd "i") space-i-map)
 
 ;; FILES BINDING
+
+(define-key space-i-map (kbd "e") 'helm-find-files)
+(global-set-key (kbd "M-x") 'helm-M-x)
+
 (define-key space-i-map (kbd "r") 'ranger)
 (define-key space-i-map (kbd "d") 'dired-jump)
 (define-key space-i-map (kbd "f") 'dired)
@@ -130,10 +138,12 @@
 (define-key space-map (kbd "f") space-f-map)
 
 ;; BUFFER BINDINGS
-(define-key space-f-map (kbd "e") 'ido-switch-buffer)
+;;(define-key space-f-map (kbd "e") 'ido-switch-buffer)
+(define-key space-f-map (kbd "e") 'helm-mini)
+(define-key space-f-map (kbd "r") 'helm-recentf)
 (define-key space-f-map (kbd "d") '(lambda ()
 				     (interactive) (switch-to-buffer (other-buffer))))
-(define-key space-f-map (kbd "k") '(lambda ()
+(define-key space-map (kbd "k") '(lambda ()
 				     (interactive) (kill-buffer (current-buffer))))
 
 

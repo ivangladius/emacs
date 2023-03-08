@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/.emacs.xah.safe/" "~/C/" "~/emacs/" "~/.emacs.d/evil/evil-magit/" "~/dotfiles/Math/" "~/dotfiles/")
+("~/" "~/.emacs.d/" "~/.config/i3/" "~/emacs/" "~/.emacs.d/evil/evil-magit/" "~/dotfiles/" "~/DS/C/")

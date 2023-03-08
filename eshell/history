@@ -1,25 +1,4 @@
 ls
-ls
-ls
-clear
-ls
-ls
-ls
-ls
-ls
-clear
-ls
-ls
-ls
-ls
-ll
-ll
-to
-top
-ls
-ll
-ll
-ls
 clear
 ls
 ls
@@ -126,3 +105,24 @@ inkscape-figures create --help
 inkscape-figures watch
 inkscape-figures watch
 ls
+ls
+clear
+ls
+ls
+ls
+ls
+cp evil-lispy-config.el ~/.emacs.d/
+ls
+ls
+clear
+ls
+ls
+clear
+ls
+clear 1
+ls
+clear 1
+ls
+(message "hello world")
+(defun func (arg) (when (not (null arg)) (print arg) (func (cdr arg))))
+(func '(1 2 3))
